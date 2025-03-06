@@ -40,14 +40,18 @@ filtered_df['strain'] = filtered_df['Isolate_Name']
 filtered_df['virus'] = 'avian_flu'  # All rows will have this value
 filtered_df['isolate_id'] = filtered_df['Isolate_Name']  # Assuming 'Isolate_Name' is the isolate_id
 filtered_df['date'] = filtered_df['Collection_Date']
-filtered_df['region'] = 'North America'  # All rows will have this value
-filtered_df['country'] = 'United States'
+
+# --- Assign region and country ---
+filtered_df['region'] = filtered_df['Country'].apply(lambda x: 'North America' if x == 'USA' else ('Asia' if x == 'Japan' else 'Other'))
+
+# Set the country column as the actual Country from filtered_df
+filtered_df['country'] = filtered_df['Country']
 
 # Replace state abbreviation with full state name in the 'division' column
 filtered_df['division'] = filtered_df['USA'].map(state_abbreviations)
 
 # If there are any state abbreviations that don't exist in the mapping (NaN or unknown abbreviations), handle them
-filtered_df['division'].fillna('Unknown', inplace=True)
+filtered_df['division'].fillna('Iwate', inplace=True)
 
 filtered_df['host'] = filtered_df['Host']
 

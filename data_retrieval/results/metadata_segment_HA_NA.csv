@@ -1,49 +1,50 @@
 strain,virus,isolate_id,date,region,country,division,host
-A/Guineafowl/WA/24-030328-001-original/2024,avian_flu,A/Guineafowl/WA/24-030328-001-original/2024,10/15/2024,North America,United States,Washington,Numididae sp.
-A/Guineafowl/WA/24-030328-002-original/2024,avian_flu,A/Guineafowl/WA/24-030328-002-original/2024,10/15/2024,North America,United States,Washington,Numididae sp.
-A/chicken/OR/24-030904-001-original/2024,avian_flu,A/chicken/OR/24-030904-001-original/2024,10/21/2024,North America,United States,Oregon,Gallus gallus
-A/chicken/OR/24-030904-002-original/2024,avian_flu,A/chicken/OR/24-030904-002-original/2024,10/21/2024,North America,United States,Oregon,Gallus gallus
-A/Washington/239/2024,avian_flu,A/Washington/239/2024,10/18/2024,North America,United States,Washington,Homo sapiens
-A/Washington/240/2024,avian_flu,A/Washington/240/2024,10/18/2024,North America,United States,Washington,Homo sapiens
-A/Washington/251/2024,avian_flu,A/Washington/251/2024,10/24/2024,North America,United States,Oregon,Homo sapiens
-A/Washington/252/2024,avian_flu,A/Washington/252/2024,10/24/2024,North America,United States,Oregon,Homo sapiens
-A/Washington/253/2024,avian_flu,A/Washington/253/2024,10/24/2024,North America,United States,Oregon,Homo sapiens
-A/Washington/254/2024,avian_flu,A/Washington/254/2024,10/23/2024,North America,United States,Washington,Homo sapiens
-A/Washington/255/2024,avian_flu,A/Washington/255/2024,10/29/2024,North America,United States,Washington,Homo sapiens
-A/Washington/UW32495/2024,avian_flu,A/Washington/UW32495/2024,10/18/2024,North America,United States,Washington,Homo sapiens
-A/chicken/Washington/W242850087-1/2024,avian_flu,A/chicken/Washington/W242850087-1/2024,10/11/2024,North America,United States,Washington,Gallus gallus
-A/chicken/Washington/W242850087-2/2024,avian_flu,A/chicken/Washington/W242850087-2/2024,10/11/2024,North America,United States,Washington,Gallus gallus
-A/chicken/WA/24-030039-001/2024,avian_flu,A/chicken/WA/24-030039-001/2024,10/11/2024,North America,United States,Washington,Gallus gallus
-A/chicken/WA/24-030039-002/2024,avian_flu,A/chicken/WA/24-030039-002/2024,10/11/2024,North America,United States,Washington,Gallus gallus
-A/chicken/OR/24-035148-001-original/2024,avian_flu,A/chicken/OR/24-035148-001-original/2024,11/18/2024,North America,United States,Oregon,Gallus gallus
-A/chicken/OR/24-035148-002-original/2024,avian_flu,A/chicken/OR/24-035148-002-original/2024,11/18/2024,North America,United States,Oregon,Gallus gallus
-A/chicken/OR/24-037945-001-original/2024,avian_flu,A/chicken/OR/24-037945-001-original/2024,12/10/2024,North America,United States,Oregon,Gallus gallus
-A/chicken/OR/24-037945-002-original/2024,avian_flu,A/chicken/OR/24-037945-002-original/2024,12/10/2024,North America,United States,Oregon,Gallus gallus
-A/chicken/WA/24-031352-001-original/2024,avian_flu,A/chicken/WA/24-031352-001-original/2024,10/21/2024,North America,United States,Washington,Gallus gallus
-A/chicken/WA/24-031352-002-original/2024,avian_flu,A/chicken/WA/24-031352-002-original/2024,10/21/2024,North America,United States,Washington,Gallus gallus
-A/chicken/WA/24-031352-003-original/2024,avian_flu,A/chicken/WA/24-031352-003-original/2024,10/21/2024,North America,United States,Washington,Gallus gallus
-A/Duck/OR/24-037944-001-original/2024,avian_flu,A/Duck/OR/24-037944-001-original/2024,11/26/2024,North America,United States,Oregon,Anatidae
-A/chicken/WA/24-034062-001-original/2024,avian_flu,A/chicken/WA/24-034062-001-original/2024,11/13/2024,North America,United States,Washington,Gallus gallus
-A/goose/WA/24-033829-001-original/2024,avian_flu,A/goose/WA/24-033829-001-original/2024,11/12/2024,North America,United States,Washington,Anatidae
-A/Duck/OR/24-031478-003-original/2024,avian_flu,A/Duck/OR/24-031478-003-original/2024,10/22/2024,North America,United States,Oregon,Anatidae
-A/Peafowl/OR/24-031478-001-original/2024,avian_flu,A/Peafowl/OR/24-031478-001-original/2024,10/22/2024,North America,United States,Oregon,Pavo
-A/pig/OR/24-031264-004-combined/2024,avian_flu,A/pig/OR/24-031264-004-combined/2024,10/22/2024,North America,United States,Oregon,Sus scrofa
-A/goose/OR/24-031478-002-original/2024,avian_flu,A/goose/OR/24-031478-002-original/2024,10/22/2024,North America,United States,Oregon,Anatidae
-A/Turkey/SD/24-037530-001-original/2024,avian_flu,A/Turkey/SD/24-037530-001-original/2024,2024-12-13,North America,United States,South Dakota,Meleagris gallopavo
-A/chicken/MT/24-032160-003-original/2024,avian_flu,A/chicken/MT/24-032160-003-original/2024,2024-10-24,North America,United States,Montana,Gallus gallus
-A/Guineafowl/AL/24-037980-001-original/2024,avian_flu,A/Guineafowl/AL/24-037980-001-original/2024,2024-12-13,North America,United States,Alabama,Numididae sp.
-A/chicken/CA/24-038654-003-original/2024,avian_flu,A/chicken/CA/24-038654-003-original/2024,2024-12-03,North America,United States,California,Gallus gallus
-A/chicken/WA/24-032191-001-original/2024,avian_flu,A/chicken/WA/24-032191-001-original/2024,2024-10-30,North America,United States,Washington,Gallus gallus
-A/chicken/WA/24-032191-002-original/2024,avian_flu,A/chicken/WA/24-032191-002-original/2024,2024-10-30,North America,United States,Washington,Gallus gallus
-A/chicken/WA/24-032191-004-original/2024,avian_flu,A/chicken/WA/24-032191-004-original/2024,2024-10-30,North America,United States,Washington,Gallus gallus
-A/Tiger/ID/24-035868-001-original/2024,avian_flu,A/Tiger/ID/24-035868-001-original/2024,2024-11-19,North America,United States,Idaho,Panthera tigris
-A/chicken/WA/24-032809-002-original/2024,avian_flu,A/chicken/WA/24-032809-002-original/2024,2024-11-05,North America,United States,Washington,Gallus gallus
-A/chicken/WA/24-032191-003-original/2024,avian_flu,A/chicken/WA/24-032191-003-original/2024,2024-10-30,North America,United States,Washington,Gallus gallus
-A/chicken/SD/25-000692-001-original/2025,avian_flu,A/chicken/SD/25-000692-001-original/2025,2025-01-06,North America,United States,South Dakota,Gallus gallus
-A/chicken/MT/24-032160-004-original/2024,avian_flu,A/chicken/MT/24-032160-004-original/2024,2024-10-24,North America,United States,Montana,Gallus gallus
-A/chicken/MT/24-032160-002-original/2024,avian_flu,A/chicken/MT/24-032160-002-original/2024,2024-10-24,North America,United States,Montana,Gallus gallus
-A/chicken/SD/24-037531-001-original/2024,avian_flu,A/chicken/SD/24-037531-001-original/2024,2024-12-11,North America,United States,South Dakota,Gallus gallus
-A/chicken/CO/24-036613-001-original/2024,avian_flu,A/chicken/CO/24-036613-001-original/2024,2024-12-04,North America,United States,Colorado,Gallus gallus
-A/chicken/WA/24-032809-001-original/2024,avian_flu,A/chicken/WA/24-032809-001-original/2024,2024-11-05,North America,United States,Washington,Gallus gallus
-A/chicken/MT/24-032160-001-original/2024,avian_flu,A/chicken/MT/24-032160-001-original/2024,2024-10-24,North America,United States,Montana,Gallus gallus
-A/chicken/MO/24-037561-001-original/2024,avian_flu,A/chicken/MO/24-037561-001-original/2024,2024-12-14,North America,United States,Missouri,Gallus gallus
+A/Guineafowl/WA/24-030328-001-original/2024,avian_flu,A/Guineafowl/WA/24-030328-001-original/2024,10/15/2024,North America,USA,Washington,Numididae sp.
+A/Guineafowl/WA/24-030328-002-original/2024,avian_flu,A/Guineafowl/WA/24-030328-002-original/2024,10/15/2024,North America,USA,Washington,Numididae sp.
+A/chicken/OR/24-030904-001-original/2024,avian_flu,A/chicken/OR/24-030904-001-original/2024,10/21/2024,North America,USA,Oregon,Gallus gallus
+A/chicken/OR/24-030904-002-original/2024,avian_flu,A/chicken/OR/24-030904-002-original/2024,10/21/2024,North America,USA,Oregon,Gallus gallus
+A/Washington/239/2024,avian_flu,A/Washington/239/2024,10/18/2024,North America,USA,Washington,Homo sapiens
+A/Washington/240/2024,avian_flu,A/Washington/240/2024,10/18/2024,North America,USA,Washington,Homo sapiens
+A/Washington/251/2024,avian_flu,A/Washington/251/2024,10/24/2024,North America,USA,Oregon,Homo sapiens
+A/Washington/252/2024,avian_flu,A/Washington/252/2024,10/24/2024,North America,USA,Oregon,Homo sapiens
+A/Washington/253/2024,avian_flu,A/Washington/253/2024,10/24/2024,North America,USA,Oregon,Homo sapiens
+A/Washington/254/2024,avian_flu,A/Washington/254/2024,10/23/2024,North America,USA,Washington,Homo sapiens
+A/Washington/255/2024,avian_flu,A/Washington/255/2024,10/29/2024,North America,USA,Washington,Homo sapiens
+A/Washington/UW32495/2024,avian_flu,A/Washington/UW32495/2024,10/18/2024,North America,USA,Washington,Homo sapiens
+A/chicken/Washington/W242850087-1/2024,avian_flu,A/chicken/Washington/W242850087-1/2024,10/11/2024,North America,USA,Washington,Gallus gallus
+A/chicken/Washington/W242850087-2/2024,avian_flu,A/chicken/Washington/W242850087-2/2024,10/11/2024,North America,USA,Washington,Gallus gallus
+A/chicken/WA/24-030039-001/2024,avian_flu,A/chicken/WA/24-030039-001/2024,10/11/2024,North America,USA,Washington,Gallus gallus
+A/chicken/WA/24-030039-002/2024,avian_flu,A/chicken/WA/24-030039-002/2024,10/11/2024,North America,USA,Washington,Gallus gallus
+A/chicken/OR/24-035148-001-original/2024,avian_flu,A/chicken/OR/24-035148-001-original/2024,11/18/2024,North America,USA,Oregon,Gallus gallus
+A/chicken/OR/24-035148-002-original/2024,avian_flu,A/chicken/OR/24-035148-002-original/2024,11/18/2024,North America,USA,Oregon,Gallus gallus
+A/chicken/OR/24-037945-001-original/2024,avian_flu,A/chicken/OR/24-037945-001-original/2024,12/10/2024,North America,USA,Oregon,Gallus gallus
+A/chicken/OR/24-037945-002-original/2024,avian_flu,A/chicken/OR/24-037945-002-original/2024,12/10/2024,North America,USA,Oregon,Gallus gallus
+A/chicken/WA/24-031352-001-original/2024,avian_flu,A/chicken/WA/24-031352-001-original/2024,10/21/2024,North America,USA,Washington,Gallus gallus
+A/chicken/WA/24-031352-002-original/2024,avian_flu,A/chicken/WA/24-031352-002-original/2024,10/21/2024,North America,USA,Washington,Gallus gallus
+A/chicken/WA/24-031352-003-original/2024,avian_flu,A/chicken/WA/24-031352-003-original/2024,10/21/2024,North America,USA,Washington,Gallus gallus
+A/Duck/OR/24-037944-001-original/2024,avian_flu,A/Duck/OR/24-037944-001-original/2024,11/26/2024,North America,USA,Oregon,Anatidae
+A/chicken/WA/24-034062-001-original/2024,avian_flu,A/chicken/WA/24-034062-001-original/2024,11/13/2024,North America,USA,Washington,Gallus gallus
+A/goose/WA/24-033829-001-original/2024,avian_flu,A/goose/WA/24-033829-001-original/2024,11/12/2024,North America,USA,Washington,Anatidae
+A/Duck/OR/24-031478-003-original/2024,avian_flu,A/Duck/OR/24-031478-003-original/2024,10/22/2024,North America,USA,Oregon,Anatidae
+A/Peafowl/OR/24-031478-001-original/2024,avian_flu,A/Peafowl/OR/24-031478-001-original/2024,10/22/2024,North America,USA,Oregon,Pavo
+A/pig/OR/24-031264-004-combined/2024,avian_flu,A/pig/OR/24-031264-004-combined/2024,10/22/2024,North America,USA,Oregon,Sus scrofa
+A/goose/OR/24-031478-002-original/2024,avian_flu,A/goose/OR/24-031478-002-original/2024,10/22/2024,North America,USA,Oregon,Anatidae
+A/chicken/SD/25-000692-001-original/2025,avian_flu,A/chicken/SD/25-000692-001-original/2025,2025-01-06,North America,USA,South Dakota,Gallus gallus
+A/chicken/MT/24-032160-003-original/2024,avian_flu,A/chicken/MT/24-032160-003-original/2024,2024-10-24,North America,USA,Montana,Gallus gallus
+A/chicken/WA/24-032809-002-original/2024,avian_flu,A/chicken/WA/24-032809-002-original/2024,2024-11-05,North America,USA,Washington,Gallus gallus
+A/chicken/SD/24-037531-001-original/2024,avian_flu,A/chicken/SD/24-037531-001-original/2024,2024-12-11,North America,USA,South Dakota,Gallus gallus
+A/chicken/CA/24-038654-003-original/2024,avian_flu,A/chicken/CA/24-038654-003-original/2024,2024-12-03,North America,USA,California,Gallus gallus
+A/chicken/MO/24-037561-001-original/2024,avian_flu,A/chicken/MO/24-037561-001-original/2024,2024-12-14,North America,USA,Missouri,Gallus gallus
+A/Guineafowl/AL/24-037980-001-original/2024,avian_flu,A/Guineafowl/AL/24-037980-001-original/2024,2024-12-13,North America,USA,Alabama,Numididae sp.
+A/Tiger/ID/24-035868-001-original/2024,avian_flu,A/Tiger/ID/24-035868-001-original/2024,2024-11-19,North America,USA,Idaho,Panthera tigris
+A/chicken/WA/24-032809-001-original/2024,avian_flu,A/chicken/WA/24-032809-001-original/2024,2024-11-05,North America,USA,Washington,Gallus gallus
+A/chicken/MT/24-032160-004-original/2024,avian_flu,A/chicken/MT/24-032160-004-original/2024,2024-10-24,North America,USA,Montana,Gallus gallus
+A/chicken/MT/24-032160-002-original/2024,avian_flu,A/chicken/MT/24-032160-002-original/2024,2024-10-24,North America,USA,Montana,Gallus gallus
+A/chicken/CO/24-036613-001-original/2024,avian_flu,A/chicken/CO/24-036613-001-original/2024,2024-12-04,North America,USA,Colorado,Gallus gallus
+A/chicken/WA/24-032191-001-original/2024,avian_flu,A/chicken/WA/24-032191-001-original/2024,2024-10-30,North America,USA,Washington,Gallus gallus
+A/chicken/WA/24-032191-002-original/2024,avian_flu,A/chicken/WA/24-032191-002-original/2024,2024-10-30,North America,USA,Washington,Gallus gallus
+A/Turkey/SD/24-037530-001-original/2024,avian_flu,A/Turkey/SD/24-037530-001-original/2024,2024-12-13,North America,USA,South Dakota,Meleagris gallopavo
+A/chicken/WA/24-032191-004-original/2024,avian_flu,A/chicken/WA/24-032191-004-original/2024,2024-10-30,North America,USA,Washington,Gallus gallus
+A/chicken/MT/24-032160-001-original/2024,avian_flu,A/chicken/MT/24-032160-001-original/2024,2024-10-24,North America,USA,Montana,Gallus gallus
+A/chicken/WA/24-032191-003-original/2024,avian_flu,A/chicken/WA/24-032191-003-original/2024,2024-10-30,North America,USA,Washington,Gallus gallus
+A/jungle crow/Iwate/0304I001/2022,avian_flu,A/jungle crow/Iwate/0304I001/2022,2022-04-06,Asia,Japan,Iwate,Corvus macrorhynchos
