@@ -32,7 +32,7 @@ We start by pulling the H5N* sequences from NCBI and curating them down to the s
 
 ### 2. Pull Contextual Sequences from the D1.1 Clade
 
-To ensure that we are using relevant contextual sequences, we focus on sequences of the same genotype (D1.1). This minimizes the impact of reassortment on the phylogenetic analysis.
+To get relevant contextual data we need to ensure that we are using contextual sequences that are the same genotype (D1.1) to minimize the impact of reassortment on phylogenetic signals. To pull contextual sequences from the D1.1 clade we perform phylogenetic placement of the Washington and Oregon sequences of interest that have whole genomes onto the UShER concatenated whole genome tree (N=50 sequences displayed) and pull all sequences from the D1.1 subclade that our Washington sequences cluster within. We do that through the following steps:
 
 #### 2.1 Generate Concatenated Assemblies
 
@@ -70,5 +70,4 @@ To ensure that we are using relevant contextual sequences, we focus on sequences
 
 ## Conclusion
 
-Following these steps, we will curate the data, generate the required contextual sequences, and prepare the dataset for constructing a concatenated HA-NA phylogenetic tree for recent H5N* sequences from Oregon and Washington.
-
+Following these steps, we curate the data, generate the required contextual sequences, and prepare the dataset for constructing a concatenated HA-NA phylogenetic tree for recent H5N* sequences from Oregon and Washington.
