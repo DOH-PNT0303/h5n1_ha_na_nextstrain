@@ -1,0 +1,318 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "28.0.0"
+  },
+  "models": {
+    "host": {
+      "alphabet": [
+        "Avian",
+        "Chicken",
+        "Human",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.18996420812204015,
+        0.31206124930136514,
+        0.49797454257659474
+      ],
+      "rate": 23.69521014775906,
+      "transition_matrix": [
+        [
+          0.0,
+          0.867227522130218,
+          1.2538686258218386
+        ],
+        [
+          0.867227522130218,
+          0.0,
+          2.123428394522654
+        ],
+        [
+          1.2538686258218386,
+          2.123428394522654,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "A/Canada_Goose/BC/AIVPHL-2524/2024": {
+      "host": "Avian",
+      "host_confidence": {
+        "Avian": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/Canada_Goose/BC/AIVPHL-2530/2024": {
+      "host": "Avian",
+      "host_confidence": {
+        "Avian": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/Canada_Goose/BC/AIVPHL-2531/2024": {
+      "host": "Avian",
+      "host_confidence": {
+        "Avian": 0.9999999999999999
+      },
+      "host_entropy": -9.99866855976916e-13
+    },
+    "A/Louisiana/12/2024": {
+      "host": "Human",
+      "host_confidence": {
+        "Human": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/Red_Tailed_Hawk/BC/AIVPHL-2513/2024": {
+      "host": "Avian",
+      "host_confidence": {
+        "Avian": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/Washington/254/2024-egg": {
+      "host": "Human",
+      "host_confidence": {
+        "Human": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/Washington/255/2024": {
+      "host": "Human",
+      "host_confidence": {
+        "Human": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/Washington/UW32495/2024": {
+      "host": "Human",
+      "host_confidence": {
+        "Human": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/Iwate/22A5T/2023": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Chicken": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/Oregon/24-030904-001/2024": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Chicken": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/Oregon/24-030904-002/2024": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Chicken": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/Washington/24-030039-001/2024": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Chicken": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/Washington/24-030039-002/2024": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Chicken": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/Washington/24-031352-001/2024": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Chicken": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/Washington/24-031352-002/2024": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Chicken": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/Washington/24-031352-003/2024": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Chicken": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/Washington/W242850087-1/2024": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Chicken": 0.9999999999999999
+      },
+      "host_entropy": -9.99866855976916e-13
+    },
+    "A/chicken/Washington/W242850087-2/2024": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Chicken": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/guineafowl/Washington/24-030328-001/2024": {
+      "host": "Avian",
+      "host_confidence": {
+        "Avian": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/guineafowl/Washington/24-030328-002/2024": {
+      "host": "Avian",
+      "host_confidence": {
+        "Avian": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000000": {
+      "host": "Avian",
+      "host_confidence": {
+        "Avian": 0.9907092183553265,
+        "Chicken": 0.0017600755134334622,
+        "Human": 0.007530706131239974
+      },
+      "host_entropy": 0.057226452054295184
+    },
+    "NODE_0000001": {
+      "host": "Avian",
+      "host_confidence": {
+        "Avian": 0.99488744298326,
+        "Chicken": 0.005031754478589684
+      },
+      "host_entropy": 0.0324888854968481
+    },
+    "NODE_0000002": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Avian": 0.20112671330677057,
+        "Chicken": 0.45060991409134854,
+        "Human": 0.3482633726018809
+      },
+      "host_entropy": 1.0491231392586164
+    },
+    "NODE_0000003": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Avian": 0.006569225052403051,
+        "Chicken": 0.9928581699776818
+      },
+      "host_entropy": 0.04440365930422564
+    },
+    "NODE_0000004": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Chicken": 0.9999378540155152
+      },
+      "host_entropy": 0.0007022663069786185
+    },
+    "NODE_0000006": {
+      "host": "Avian",
+      "host_confidence": {
+        "Avian": 0.9999782551135098
+      },
+      "host_entropy": 0.00026176449135581936
+    },
+    "NODE_0000007": {
+      "host": "Avian",
+      "host_confidence": {
+        "Avian": 0.5563268055851026,
+        "Chicken": 0.44297400329100606
+      },
+      "host_entropy": 0.6919987363237012
+    },
+    "NODE_0000009": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Avian": 0.0036475689008734465,
+        "Chicken": 0.9960242410513811
+      },
+      "host_entropy": 0.027076895743506687
+    },
+    "NODE_0000010": {
+      "host": "Avian",
+      "host_confidence": {
+        "Avian": 0.5570582303879779,
+        "Chicken": 0.4422344706434906
+      },
+      "host_entropy": 0.6918832463613286
+    },
+    "NODE_0000011": {
+      "host": "Avian",
+      "host_confidence": {
+        "Avian": 0.9981756915479532,
+        "Chicken": 0.0017305570964972752
+      },
+      "host_entropy": 0.013697326838256411
+    },
+    "NODE_0000012": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Chicken": 0.9994917600956601
+      },
+      "host_entropy": 0.0045757958410689685
+    },
+    "NODE_0000013": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Chicken": 0.9838661966112826,
+        "Human": 0.016103672133355194
+      },
+      "host_entropy": 0.08280397189288126
+    },
+    "NODE_0000014": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Chicken": 0.9999958599686731
+      },
+      "host_entropy": 5.548702768755842e-05
+    },
+    "NODE_0000017": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Chicken": 0.9993660397941945
+      },
+      "host_entropy": 0.0053052711985905245
+    },
+    "NODE_0000019": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Chicken": 0.9995028947080375
+      },
+      "host_entropy": 0.004279327452638852
+    },
+    "W250220054-1_2025": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Chicken": 0.9999999999999999
+      },
+      "host_entropy": -9.99866855976916e-13
+    },
+    "W250220054-6_2025": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Chicken": 0.9999999999999999
+      },
+      "host_entropy": -9.99866855976916e-13
+    },
+    "W250220054-7_2025": {
+      "host": "Chicken",
+      "host_confidence": {
+        "Chicken": 0.9999999999999999
+      },
+      "host_entropy": -9.99866855976916e-13
+    }
+  }
+}

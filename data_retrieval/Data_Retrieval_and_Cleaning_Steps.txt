@@ -1,0 +1,36 @@
+Goal: Create an HA and NA concatenated tree of recent H5N* Oregon and Washington sequences using data available only in NCBI. We focus on only NCBI sequences due to GISAID's data sharing policies. 
+
+1. First thing we need to do is pull H5N* sequences from NCBI and curate down to the Oregon and Washington sequences of interest that we've identified through our HA tree (data/washington_oregon_sequences_of_interest.tsv). We do that with the following steps: 
+
+1.1 Use NCBI Virus to pull all H5N1 sequences and segments with the following filtering parameters: 
+Geographic Region: Oregon and WA
+Genotype: H5N* or H5
+Collection Date: 09/1/2024 to 12/31/2024 
+Link to query: https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=Alphainfluenzavirus,%20taxid:197911&Serotype_s=H5N*%20H5&USAState_s=OR&USAState_s=WA&CollectionDate_dr=2024-09-01T00:00:00.00Z%20TO%202024-12-31T23:59:59.00Z
+
+Note: Downloaded data are stored as data/2024_09_01_2024_12_31_WA_OR_NCBI_sequences.fasta and data/2024_09_01_2024_12_31_WA_OR_NCBI_metadata.csv 
+
+1.2 Merge and format sequences using scripts/01_merge_and_format_files.py
+
+1.3 Manually subset and clean results/merged_metadata_sequences_mod.csv to the WA and OR sequences of interest based on the subclade of interest in our HA tree (data/washington_oregon_sequences_of_interest.tsv)
+
+
+2. To get relevant contextual data we need to ensure that we are using contextual sequences that are the same genotype (D1.1) to minimize the impact of reassortment on phylogenetic signals. To pull contextual sequences from the D1.1 clade we perform phylogenetic placement of the Washington and Oregon sequences of interest that have whole genomes onto the UShER concatenated whole genome tree (N=50 sequences displayed) and pull all sequences from the D1.1 subclade that our Washington sequences cluster within. We do that through the following steps:  
+
+2.1 Generate concatenated_assemblies.fasta using scripts/02_generate_concatenated_assemblies.py 
+
+2.2 Take the whole genome concatenated Washington and Oregon sequences (results/concatenated_assemblies.fasta) that were generated using scripts/01_merge_and_format_files and upload into UShER (https://genome.ucsc.edu/cgi-bin/hgPhyloPlace) for placement on the H5N1 D1.1 2024 outbreak:concatenated segments tree. 
+
+2.3 Export the metadata (data/nextstrain_fetch_genome.ucsc.edu_trash_hgPhyloPlace_subtreeAuspice1_genome_30f0cb_92e850.json_metadata.txt) from the subtree (subtree 1) that contains both the WA homo sapiens cluster of cases and the Oregon chicken sequences. This will give us a list of NCBI sequences that are in the D1.1 subclade and can provide context to our WA and OR sequences of interest. 
+
+2.4 Use scripts/03_fetch_influenza_seqs.py to programmatically pull all contextual sequences from NCBI using the biosample_accession in data/nextstrain_fetch_genome.ucsc.edu_trash_hgPhyloPlace_subtreeAuspice1_genome_30f0cb_92e850.json_metadata.txt. **Note there are 32 sequences with a biosample accession SAMN number and of those 16 have assemblies in NCBI. The 12 without assemblies have SRA reads that are assembled by UShER but are excluded from our analytical dataset as we do not have access to their assemblies. 
+
+2.5 Downloaded assemblies from NCBI can be found under results/assemblies_from_NCBI/ and the merged fasta of all sequences downloaded using scripts/03_fetch_influenza_seqs.py is found in results/all_sequences.fna 
+
+
+3. Merge the contextual sequences with our sequences of interest (scripts/04_parse_and_merge_fasta_with_metadata.py), deduplicate any sequences and fill in missing metadata (scripts/05_add_missing_metadata.py). This produces the dataset that will be used for our HA-NA phylogenetic tree (results/cleaned_all_metadata_sequences.csv)
+
+4. (Optional) Take the dataset results/cleaned_all_metadata_sequences.csv and write out the sequences that have both HA and NA segments into fasta and metadata files for ingest into a Nextstrain build (phylogenetic tree building pipeline). 
+
+
+
