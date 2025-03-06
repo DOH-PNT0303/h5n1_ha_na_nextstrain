@@ -3,7 +3,24 @@
 ## Goal
 The objective is to create a concatenated phylogenetic tree for the HA (hemagglutinin) and NA (neuraminidase) segments of recent H5N* sequences from Oregon and Washington. This will focus on sequences available only from NCBI due to data-sharing policies from GISAID.
 
-## Steps
+## How to run the scripts
+1. Clone the Repo and change directories to the `data_retrieval` subfolder
+```
+git clone https://github.com/DOH-PNT0303/h5n1_ha_na_nextstrain.git
+cd data_retrieval
+```
+2. You can execute each script using Python individually to see each step outlined below.
+```
+python scripts/01_merge_and_format_files.py
+python scripts/02_generate_concatenated_assemblies.py
+python scripts/03_fetch_influenza_seqs.py
+python scripts/04_parse_and_merge_fasta_with_metadata.py
+python scripts/05_add_missing_metadata.py
+python scripts/06_add_outgroup.py
+python scripts/07_create_fasta_metadata_files.py
+```
+
+## Explanation of Steps
 
 ### 1. Pull H5N* Sequences from NCBI
 
@@ -61,13 +78,13 @@ To get relevant contextual data we need to ensure that we are using contextual s
 
 - Merge the contextual sequences with the sequences of interest using the script `scripts/04_parse_and_merge_fasta_with_metadata.py`.
 - Deduplicate sequences and fill in any missing metadata using the script `scripts/05_add_missing_metadata.py`.
-- Add in the outgroup sequence A/jungle crow/Iwate/0304I001/2022 using the script `scripts/06_add_outgroup.py`.
+- Add in the outgroup sequence `A/jungle crow/Iwate/0304I001/2022` using the script `scripts/06_add_outgroup.py`.
 - The final cleaned dataset will be saved as `results/cleaned_all_metadata_sequences.csv`.
 
 ### 4. (Optional) Prepare Sequences for Nextstrain Build
 
 - Take the cleaned dataset (`results/cleaned_all_metadata_sequences.csv`) and extract the sequences that have both HA and NA segments.
-- Write the HA and NA sequences into separate FASTA files, along with their metadata, for use in the Nextstrain phylogenetic tree building pipeline.
+- Write the HA and NA sequences into separate FASTA files, along with their metadata, for use in the Nextstrain phylogenetic tree building pipeline using the script `scripts/07_create_fasta_metadata_files.py`
 
 ## Conclusion
 

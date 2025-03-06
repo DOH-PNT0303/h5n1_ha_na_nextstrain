@@ -28,9 +28,15 @@ Note: Downloaded data are stored as data/2024_09_01_2024_12_31_WA_OR_NCBI_sequen
 2.5 Downloaded assemblies from NCBI can be found under results/assemblies_from_NCBI/ and the merged fasta of all sequences downloaded using scripts/03_fetch_influenza_seqs.py is found in results/all_sequences.fna 
 
 
-3. Merge the contextual sequences with our sequences of interest (scripts/04_parse_and_merge_fasta_with_metadata.py), deduplicate any sequences and fill in missing metadata (scripts/05_add_missing_metadata.py). This produces the dataset that will be used for our HA-NA phylogenetic tree (results/cleaned_all_metadata_sequences.csv)
+3. Merge and Clean Data
 
-4. (Optional) Take the dataset results/cleaned_all_metadata_sequences.csv and write out the sequences that have both HA and NA segments into fasta and metadata files for ingest into a Nextstrain build (phylogenetic tree building pipeline). 
+3.1 Merge the contextual sequences with our sequences of interest (scripts/04_parse_and_merge_fasta_with_metadata.py)
+3.2 Deduplicate any sequences and fill in missing metadata (scripts/05_add_missing_metadata.py
+3.3 Add in the outgroup (scripts/06_add_outgroup.py). 
+3.4 This produces the dataset that will be used for our HA-NA phylogenetic tree (results/cleaned_all_metadata_sequences.csv)
+
+4. (Optional) Take the dataset results/cleaned_all_metadata_sequences.csv and write out the sequences (scripts/07_create_fasta_metadata_files.py) that have both HA and NA segments into fasta and metadata files for ingest into a Nextstrain build (phylogenetic tree building pipeline). 
+
 
 
 
