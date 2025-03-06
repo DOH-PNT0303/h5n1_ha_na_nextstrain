@@ -61,6 +61,7 @@ To get relevant contextual data we need to ensure that we are using contextual s
 
 - Merge the contextual sequences with the sequences of interest using the script `scripts/04_parse_and_merge_fasta_with_metadata.py`.
 - Deduplicate sequences and fill in any missing metadata using the script `scripts/05_add_missing_metadata.py`.
+- Add in the outgroup sequence A/jungle crow/Iwate/0304I001/2022 using the script `scripts/06_add_outgroup.py`.
 - The final cleaned dataset will be saved as `results/cleaned_all_metadata_sequences.csv`.
 
 ### 4. (Optional) Prepare Sequences for Nextstrain Build

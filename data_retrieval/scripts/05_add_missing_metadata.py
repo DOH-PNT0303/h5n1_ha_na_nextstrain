@@ -59,11 +59,16 @@ print(f"Results have been written to {output_csv}")
 
 # -------- Merging and Filling Missing Values Logic -------- #
 
-# Path to the existing metadata
-existing_metadata_csv = "../results/all_merged_metadata_with_sequences.csv"  # Path to the existing metadata file
+# Absolute path to the existing metadata
+existing_metadata_csv = os.path.join(script_dir, "../results/all_merged_metadata_with_sequences.csv")
 
-# Read the existing metadata table (all_merged_metadata_with_sequences.csv)
-existing_metadata = pd.read_csv(existing_metadata_csv)
+# Check if the file exists before attempting to read it
+if os.path.exists(existing_metadata_csv):
+    existing_metadata = pd.read_csv(existing_metadata_csv)
+else:
+    print(f"File not found: {existing_metadata_csv}")
+    # Handle the case where the file is missing (e.g., skip processing or exit the script)
+    exit()
 
 # Read the new metadata table (samn_accessions_with_metadata.csv)
 new_metadata = pd.read_csv(output_csv)  # The file we've just created
@@ -76,7 +81,7 @@ new_metadata.columns = new_metadata.columns.str.strip()
 merged_df = pd.merge(existing_metadata, new_metadata, how="left", on="Accession")
 
 # Dynamically handle filling missing values for Host, Collection_Date, and Authors
-columns_to_merge = ['Host', 'Collection_Date', 'Submitters','BioSample']
+columns_to_merge = ['Host', 'Collection_Date', 'Submitters', 'BioSample']
 
 for column in columns_to_merge:
     # Check for '_x' and '_y' columns in the merged dataframe
@@ -86,7 +91,7 @@ for column in columns_to_merge:
         merged_df = merged_df.drop(columns=[f'{column}_x', f'{column}_y'])
 
 # Save the merged data to a new CSV file
-output_merged_csv = "../results/cleaned_all_metadata_sequences.csv"  # You can adjust the output path here
+output_merged_csv = os.path.join(script_dir, "../results/cleaned_all_metadata_sequences_no_outgroup.csv")  # You can adjust the output path here
 merged_df.to_csv(output_merged_csv, index=False)
 
 print(f"Merged metadata has been written to {output_merged_csv}")
