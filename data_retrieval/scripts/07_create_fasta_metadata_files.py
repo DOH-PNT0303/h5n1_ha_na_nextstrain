@@ -1,8 +1,11 @@
 import pandas as pd
 import os
 
-# Path to the cleaned metadata file
-cleaned_metadata_csv = "../results/cleaned_all_metadata_sequences.csv"
+# Get the absolute path to the current script
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Path to the cleaned metadata file (relative to the script's directory)
+cleaned_metadata_csv = os.path.join(script_dir, "../results/cleaned_all_metadata_sequences.csv")
 
 # Load the cleaned metadata file
 df = pd.read_csv(cleaned_metadata_csv)
@@ -62,8 +65,11 @@ final_metadata_df = filtered_df[final_columns]
 # Remove redundant rows based on all columns
 final_metadata_df = final_metadata_df.drop_duplicates()
 
-# Define the output path for the results
-output_metadata_csv = "../results/metadata_segment_HA_NA.csv"
+# Define the output path for the results (relative to the script's directory)
+output_metadata_csv = os.path.join(script_dir, "../results/nextstrain_files/metadata_segment_HA_NA.csv")
+
+# Ensure the nextstrain_files/ directory exists
+os.makedirs(os.path.dirname(output_metadata_csv), exist_ok=True)
 
 # Save the filtered and transformed metadata to the output CSV file
 final_metadata_df.to_csv(output_metadata_csv, index=False)
@@ -76,8 +82,11 @@ print(f"Metadata for Isolates with both Segment 4 and 6 (without redundant rows)
 ha_df = filtered_df[filtered_df['Segment'] == 4]
 na_df = filtered_df[filtered_df['Segment'] == 6]
 
-# Define the output directory for the FASTA files
-output_fasta_dir = "../results/"
+# Define the output directory for the FASTA files (relative to the script's directory)
+output_fasta_dir = os.path.join(script_dir, "../results/nextstrain_files/")
+
+# Ensure the nextstrain_files/ directory exists
+os.makedirs(output_fasta_dir, exist_ok=True)
 
 # Write the HA sequences to a FASTA file
 ha_fasta_file = os.path.join(output_fasta_dir, "ha_sequences.fasta")
