@@ -20,14 +20,14 @@
 
 # Segment order determines how the full genome annotation (entropy panel) is set up
 # using the canonical ordering <https://viralzone.expasy.org/6>
-SEGMENTS = ["pb2", "pb1", "pa", "ha", "np", "na", "mp", "ns"]
+SEGMENTS = ["ha", "na"]
 assert len(set(SEGMENTS))==len(SEGMENTS), "Duplicate segment detected - check 'SEGMENTS' list"
 
-BUILD_NAME = ['h5n1-franklin-county-outbreak']
+BUILD_NAME = ['h5n1-oregon-washington']
 
 # We parameterise the build by build_name, but we often refer to upstream files / sources by the subtype
 def subtype(build_name):
-    assert build_name=='h5n1-franklin-county-outbreak', "Full genome build for 'h5n1-franklin-county-outbreak' "
+    assert build_name=='h5n1-oregon-washington', "HA-NA genome build for 'h5n1-oregon-washington' "
     return 'h5n1'
 
 def subtypes_by_subtype_wildcard(wildcards):
@@ -48,9 +48,9 @@ rule all:
 rule files:
     params:
         reference = lambda w: f"config/reference_{subtype(w.build_name)}_{{segment}}.gb",
-        sequences = "outbreak_files_franklin/sequences_h5n1_{segment}.fasta",
-        metadata = "outbreak_files_franklin/sequences_h5n1_franklin_county.tsv",
-        include = "outbreak_files_franklin/include_strains_outbreak.txt",
+        sequences = "outbreak_files_OR_WA/{segment}_sequences.fasta",
+        metadata = "outbreak_files_OR_WA/metadata_segment_HA_NA.tsv",
+        include = "outbreak_files_OR_WA/include_strains.txt",
         #dropped_strains = "config/dropped_strains_{build_name}.txt",
         colors = "config/colors_h5n1-franklin-county-outbreak.tsv",
         #lat_longs =  lambda w: f"config/lat_longs_{subtype(w.build_name)}.tsv",
@@ -112,36 +112,6 @@ rule join_sequences:
             --output {output.alignment}
         """
 
-rule concatenate_genomes:
-    input:
-        join_sequences = "results/{build_name}/genome/aligned.fasta",
-        franklin_genome = "outbreak_files_franklin/Franklin03.fas",
-    output:
-        concatenated_genomes = "results/{build_name}/genome/concatenated_genomes.fasta",
-    shell:
-        """
-        cat {input.join_sequences} {input.franklin_genome} > {output.concatenated_genomes}
-        """
-
-rule align_with_franklin:
-    input:
-        sequences = "results/{build_name}/genome/concatenated_genomes.fasta",  # Updated input
-        reference = "config/h5_cattle_genome_root.gb",
-    output:
-        alignment = "results/{build_name}/genome/aligned_with_franklin.fasta",  # Updated output
-    threads:
-        8
-    shell:
-        """
-        augur align \
-            --sequences {input.sequences} \
-            --reference-sequence {input.reference} \
-            --output {output.alignment} \
-            --remove-reference \
-            --fill-gaps \
-            --nthreads {threads}
-        """
-
 rule join_genbank:
     input:
         genbank_files = lambda w: [f"config/reference_{subtype(w.build_name)}_{segment}.gb" for segment in SEGMENTS],
@@ -157,7 +127,7 @@ rule join_genbank:
 rule tree:
     message: "Building tree"
     input:
-        alignment = "results/{build_name}/genome/aligned_with_franklin.fasta",
+        alignment = "results/{build_name}/genome/aligned.fasta",
     output:
         tree = "results/{build_name}/genome/tree-raw.nwk",
     params:
@@ -211,7 +181,7 @@ rule refine:
         """
     input:
         tree = "results/{build_name}/genome/tree-raw.nwk",
-        alignment = "results/{build_name}/genome/aligned_with_franklin.fasta",
+        alignment = "results/{build_name}/genome/aligned.fasta",
         metadata = files.metadata,
     output:
         tree = "results/{build_name}/genome/tree.nwk",
@@ -222,7 +192,7 @@ rule refine:
         clock_rate = clock_rate,
         # Using the closest outgroup as the root
         # Make sure this strain is force included via augur filter --include
-        root_strain = "A/chicken/Iwate/22A5T/2023"
+        root_strain = "A/junglecrow/Iwate/0304I001/2022"
     shell:
         """
         augur refine \
@@ -243,8 +213,8 @@ rule refine:
 rule ancestral:
     input:
         tree = "results/{build_name}/genome/tree.nwk",
-        alignment = "results/{build_name}/genome/aligned_with_franklin.fasta",
-        root_sequence = "config/h5_cattle_genome_root.gb",
+        alignment = "results/{build_name}/genome/aligned.fasta",
+        root_sequence = "results/{build_name}/genome/reference.gb",
     output:
         node_data = "results/{build_name}/genome/nt-muts.json"
     params:
@@ -265,7 +235,7 @@ rule translate:
     input:
         tree = "results/{build_name}/genome/tree.nwk",
         node_data = "results/{build_name}/genome/nt-muts.json",
-        reference = "config/h5_cattle_genome_root.gb",
+        reference = "results/{build_name}/genome/reference.gb",
     output:
         node_data = "results/{build_name}/genome/aa-muts.json"
     shell:

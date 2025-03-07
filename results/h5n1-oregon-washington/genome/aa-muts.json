@@ -1,0 +1,571 @@
+{
+  "annotations": {
+    "HA": {
+      "end": 1728,
+      "seqid": "results/h5n1-oregon-washington/genome/reference.gb",
+      "start": 22,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "NA": {
+      "end": 3190,
+      "seqid": "results/h5n1-oregon-washington/genome/reference.gb",
+      "start": 1781,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "nuc": {
+      "end": 3218,
+      "seqid": "results/h5n1-oregon-washington/genome/reference.gb",
+      "start": 1,
+      "strand": "+",
+      "type": "source"
+    }
+  },
+  "generated_by": {
+    "program": "augur",
+    "version": "29.0.0"
+  },
+  "nodes": {
+    "A/Duck/OR/24-031478-003-original/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/Duck/OR/24-037944-001-original/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": [
+          "K469N"
+        ]
+      }
+    },
+    "A/Guineafowl/WA/24-030328-001-original/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/Guineafowl/WA/24-030328-002-original/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/Peafowl/OR/24-031478-001-original/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/Washington/239/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": [
+          "M1X",
+          "N2X",
+          "P3X"
+        ]
+      }
+    },
+    "A/Washington/240/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": [
+          "M1X",
+          "N2X",
+          "P3X",
+          "N4X",
+          "Q5X"
+        ]
+      }
+    },
+    "A/Washington/251/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": [
+          "M1X",
+          "N2X"
+        ]
+      }
+    },
+    "A/Washington/252/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": [
+          "M1X",
+          "N2X",
+          "P3X",
+          "N4X",
+          "Q5X",
+          "K6X",
+          "I7X",
+          "T8X",
+          "T9X",
+          "I10X",
+          "G11X"
+        ]
+      }
+    },
+    "A/Washington/253/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": [
+          "M1X",
+          "N2X",
+          "P3X",
+          "N4X",
+          "Q5X",
+          "K6X"
+        ]
+      }
+    },
+    "A/Washington/254/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": [
+          "M1X",
+          "N2X",
+          "P3X",
+          "N4X",
+          "Q5X",
+          "K6X",
+          "I7X",
+          "T8X",
+          "T9X",
+          "I10X",
+          "G11X",
+          "S12X",
+          "I13X",
+          "C14X",
+          "M15X",
+          "V16X",
+          "I17X",
+          "G18X",
+          "I19X",
+          "I20X"
+        ]
+      }
+    },
+    "A/Washington/255/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/Washington/UW32495/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/chicken/OR/24-030904-001-original/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/chicken/OR/24-030904-002-original/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/chicken/OR/24-035148-001-original/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/chicken/OR/24-035148-002-original/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/chicken/OR/24-037945-001-original/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/chicken/OR/24-037945-002-original/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/chicken/WA/24-030039-001/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/chicken/WA/24-030039-002/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/chicken/WA/24-031352-001-original/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/chicken/WA/24-031352-002-original/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/chicken/WA/24-031352-003-original/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/chicken/WA/24-034062-001-original/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/chicken/Washington/W242850087-1/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/chicken/Washington/W242850087-2/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/goose/OR/24-031478-002-original/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/goose/WA/24-033829-001-original/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "A/junglecrow/Iwate/0304I001/2022": {
+      "aa_muts": {
+        "HA": [
+          "D492N"
+        ],
+        "NA": []
+      }
+    },
+    "A/pig/OR/24-031264-004-combined/2024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "NODE_0000000": {
+      "aa_muts": {
+        "HA": [
+          "K3N",
+          "V11I",
+          "R69K",
+          "N88R",
+          "K98R",
+          "S100N",
+          "D110S",
+          "F111L",
+          "T124I",
+          "Q131L",
+          "S139P",
+          "D142E",
+          "A143T",
+          "S145L",
+          "S149A",
+          "H154Q",
+          "R156A",
+          "S157P",
+          "S171D",
+          "R178I",
+          "Q185R",
+          "V190I",
+          "P197S",
+          "D199N",
+          "A201E",
+          "K205N",
+          "Q208K",
+          "E228K",
+          "P233S",
+          "K234Q",
+          "S239R",
+          "E243D",
+          "N252D",
+          "N256H",
+          "A279T",
+          "E284G",
+          "L285V",
+          "N289H",
+          "M298V",
+          "R326K",
+          "T336S",
+          "Q338L",
+          "K345X",
+          "Q429K",
+          "N492D",
+          "K499R",
+          "N515K",
+          "M527I",
+          "V539A",
+          "V549M"
+        ],
+        "NA": [
+          "K6R",
+          "I10T",
+          "V17I",
+          "I20V",
+          "H44Y",
+          "A46P",
+          "T55A",
+          "S70N",
+          "T76A",
+          "K78Q",
+          "A81T",
+          "V99I",
+          "H100Y",
+          "H155Y",
+          "T188I",
+          "M258I",
+          "T289M",
+          "G336S",
+          "V338M",
+          "P340S",
+          "N366S",
+          "G382E",
+          "W399L",
+          "S405T",
+          "I418M",
+          "S434N",
+          "D460G"
+        ]
+      },
+      "aa_sequences": {
+        "HA": "MENIVLLLAIISLVKSDQICIGYHANNSTEQVDTIMEKNVTVTHAQDILEKTHNGKLCDLNGVKPLILKDCSVAGWLLGNPMCDEFIRVPEWSYIVERANPANDLCYPGSLNDYEELKHLLSRINHFEKILIIPKSSWPNHETSLGVSAACPYQGAPSFFRNVVWLIKKNDAYPTIKISYNNTNREDLLILWGIHHSNNAEEQTNLYKNPTTYISVGTSTLNQRLVPKIATRSQVNGQRGRMDFFWTILKPDDAIHFESNGNFIAPEYAYKIVKKGDSTIMKSGVEYGHCNTKCQTPVGAINSSMPFHNIHPLTIGECPKYVKSNKLVLATGLRNSPLRERRRKXRGLFGAIAGFIEGGWQGMVDGWYGYHHSNEQGSGYAADKESTQKAIDGVTNKVNSIIDKMNTQFEAVGREFNNLERRIENLNKKMEDGFLDVWTYNAELLVLMENERTLDFHDSNVKNLYDKVRLQLRDNAKELGNGCFEFYHKCDDECMESVRNGTYDYPQYSEEARLKREEISGVKLESIGTYQILSIYSTAASSLALAIMMAGLSLWMCSNGSLQCRICI*",
+        "NA": "MNPNQRIITTGSICMVIGIVSLMLQIGNIISIWVSHSIQTGNQYQPEPCNQSIIAYENNTWVNQTYVNINNTNFLAEQAVTSVTLAGNSSLCPISGWAIYSKDNGIRIGSKGDVFVIREPFISCSHLECRTFFLTQGALLNDKHSNGTVKDRSPYRTLMSCPVGEAPSPYNSRFESVAWSASACHDGISWLTIGISGPDNGAVAVLKYNGIITDTIKSWRNNILRTQESECACVNGSCFTVMTDGPSNGQASYKIFKIEKGKVVKSVELNAPNYHYEECSCYPDAGEIMCVCRDNWHGSNRPWVSFNQNLEYQIGYICSGVFGDNPRPNDGTGSCSPMSSNGAYGVKGFSFKYGNGVWIGRTKSTSSRSGFEMIWDPNGWTETDSSFSVKQDIVAITDLSGYSGTFVQHPELTGLDCMRPCFWVELIRGRPKENTIWTSGSSISFCGVNSDTVGWSWPDGAELPFTIDK*"
+      }
+    },
+    "NODE_0000001": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "NODE_0000002": {
+      "aa_muts": {
+        "HA": [
+          "V226I",
+          "E493D"
+        ],
+        "NA": [
+          "V16A",
+          "V62I",
+          "V80G",
+          "I436V"
+        ]
+      }
+    },
+    "NODE_0000003": {
+      "aa_muts": {
+        "HA": [
+          "T52A"
+        ],
+        "NA": [
+          "R6K",
+          "T10I",
+          "V20I",
+          "M23V",
+          "Y44N",
+          "Q45H",
+          "P48T",
+          "I53V",
+          "A55T",
+          "V67I",
+          "N70S",
+          "F74L",
+          "L75I",
+          "T81D",
+          "S82P",
+          "T84A",
+          "N221S",
+          "V234I",
+          "V241I",
+          "K257R",
+          "G286S",
+          "I288V",
+          "N329S",
+          "S336G",
+          "M338V",
+          "L399W",
+          "T405S"
+        ]
+      }
+    },
+    "NODE_0000004": {
+      "aa_muts": {
+        "HA": [],
+        "NA": [
+          "K432R"
+        ]
+      }
+    },
+    "NODE_0000006": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "NODE_0000007": {
+      "aa_muts": {
+        "HA": [],
+        "NA": [
+          "I8T"
+        ]
+      }
+    },
+    "NODE_0000008": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "NODE_0000009": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "NODE_0000010": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "NODE_0000011": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "NODE_0000012": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "NODE_0000013": {
+      "aa_muts": {
+        "HA": [],
+        "NA": [
+          "I8T",
+          "I94T",
+          "S247N"
+        ]
+      }
+    },
+    "NODE_0000014": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "NODE_0000015": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "NODE_0000016": {
+      "aa_muts": {
+        "HA": [],
+        "NA": [
+          "S221N"
+        ]
+      }
+    },
+    "NODE_0000017": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "NODE_0000018": {
+      "aa_muts": {
+        "HA": [],
+        "NA": [
+          "S286N"
+        ]
+      }
+    },
+    "NODE_0000019": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "NODE_0000020": {
+      "aa_muts": {
+        "HA": [
+          "T211N"
+        ],
+        "NA": []
+      }
+    },
+    "NODE_0000022": {
+      "aa_muts": {
+        "HA": [],
+        "NA": []
+      }
+    },
+    "NODE_0000023": {
+      "aa_muts": {
+        "HA": [
+          "K515R"
+        ],
+        "NA": []
+      }
+    },
+    "NODE_0000024": {
+      "aa_muts": {
+        "HA": [],
+        "NA": [
+          "P272S"
+        ]
+      }
+    },
+    "NODE_0000027": {
+      "aa_muts": {
+        "HA": [],
+        "NA": [
+          "L85I"
+        ]
+      }
+    },
+    "NODE_0000028": {
+      "aa_muts": {
+        "HA": [
+          "A230V"
+        ],
+        "NA": []
+      }
+    }
+  },
+  "reference": {
+    "HA": "MEKIVLLLAIVSLVKSDQICIGYHANNSTEQVDTIMEKNVTVTHAQDILEKTHNGKLCDLNGVKPLILRDCSVAGWLLGNPMCDEFINVPEWSYIVEKASPANDLCYPGDFNDYEELKHLLSRTNHFEKIQIIPKSSWSNHDASSGVSSACPYHGRSSFFRNVVWLIKKNSAYPTIKRSYNNTNQEDLLVLWGIHHPNDAAEQTKLYQNPTTYISVGTSTLNQRLVPEIATRPKVNGQSGRMEFFWTILKPNDAINFESNGNFIAPEYAYKIVKKGDSAIMKSELEYGNCNTKCQTPMGAINSSMPFHNIHPLTIGECPKYVKSNRLVLATGLRNTPQRERRRKKRGLFGAIAGFIEGGWQGMVDGWYGYHHSNEQGSGYAADKESTQKAIDGVTNKVNSIIDKMNTQFEAVGREFNNLERRIENLNKQMEDGFLDVWTYNAELLVLMENERTLDFHDSNVKNLYDKVRLQLRDNAKELGNGCFEFYHKCDNECMESVKNGTYDYPQYSEEARLNREEISGVKLESMGTYQILSIYSTVASSLALAIMVAGLSLWMCSNGSLQCRICI*",
+    "NA": "MNPNQKIITIGSICMVVGIISLMLQIGNIISIWVSHSIQTGNQHQAEPCNQSIITYENNTWVNQTYVNISNTNFLTEKAVASVTLAGNSSLCPISGWAVHSKDNGIRIGSKGDVFVIREPFISCSHLECRTFFLTQGALLNDKHSNGTVKDRSPHRTLMSCPVGEAPSPYNSRFESVAWSASACHDGTSWLTIGISGPDNGAVAVLKYNGIITDTIKSWRNNILRTQESECACVNGSCFTVMTDGPSNGQASYKIFKMEKGKVVKSVELNAPNYHYEECSCYPDAGEITCVCRDNWHGSNRPWVSFNQNLEYQIGYICSGVFGDNPRPNDGTGSCGPVSPNGAYGVKGFSFKYGNGVWIGRTKSTNSRSGFEMIWDPNGWTGTDSSFSVKQDIVAITDWSGYSGSFVQHPELTGLDCIRPCFWVELIRGRPKESTIWTSGSSISFCGVNSDTVGWSWPDDAELPFTIDK*"
+  }
+}

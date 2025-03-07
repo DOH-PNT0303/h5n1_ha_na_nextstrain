@@ -45,7 +45,7 @@ We start by pulling the H5N* sequences from NCBI and curating them down to the s
 
 #### 1.3 Subset and Clean Data
 
-- Manually subset the merged metadata file `results/merged_metadata_sequences_mod.csv` to keep only the Oregon and Washington sequences of interest based on the subclade of interest in our HA tree. The sequences of interest are listed in `data/washington_oregon_sequences_of_interest.tsv`.
+- Manually subset the merged metadata file `results/merged_metadata_sequences.csv` to `results/merged_metadata_sequences_mod.csv` to keep only the Oregon and Washington sequences of interest based on the subclade of interest in our HA tree (D1.1). The NCBI Virus pull includes Washington sequences from a feline sanctuary outbreak that need to be removed from the analysis as these sequences belong to the B3.14 clade. The D1.1 sequences of interest are listed in `data/washington_oregon_sequences_of_interest.tsv`. These D1.1 sequences were identified in our HA [build](https://nextstrain.org/groups/wadoh/flu/avian/washington/h5n1/4y/ha) by zooming into the D1.1 subclade that contains our recent (late 2024) Washington human samples. We take all sequences collected in Oregon and Washington from this D1.1 subclade (`data/washington_oregon_sequences_of_interest.tsv`) and manually curate them from `results/merged_metadata_sequences.csv` to create `results/merged_metadata_sequences_mod.csv`.
 
 ### 2. Pull Contextual Sequences from the D1.1 Clade
 
@@ -78,8 +78,9 @@ To get relevant contextual data we need to ensure that we are using contextual s
 
 - Merge the contextual sequences with the sequences of interest using the script `scripts/04_parse_and_merge_fasta_with_metadata.py`.
 - Deduplicate sequences and fill in any missing metadata using the script `scripts/05_add_missing_metadata.py`.
-- Add in the outgroup sequence `A/jungle crow/Iwate/0304I001/2022` using the script `scripts/06_add_outgroup.py`.
+- Add in the outgroup sequence `A/junglecrow/Iwate/0304I001/2022` using the script `scripts/06_add_outgroup.py`.
 - The final cleaned dataset will be saved as `results/cleaned_all_metadata_sequences.csv`.
+- Format Collection_Date by opening `results/cleaned_all_metadata_sequences.csv` in Excel and formatting Collection_Date column as date and YYYY-MM-DD format. Save file. 
 
 ### 4. (Optional) Prepare Sequences for Nextstrain Build
 

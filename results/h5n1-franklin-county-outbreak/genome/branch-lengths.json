@@ -1,21 +1,22 @@
 {
   "alignment": "results/h5n1-franklin-county-outbreak/genome/aligned_with_franklin.fasta",
   "clock": {
-    "intercept": -5.8564278673009245,
+    "intercept": -5.855405196490766,
     "rate": 0.002913347314201619,
-    "rtt_Tmrca": 2010.205868264572
+    "rtt_Tmrca": 2009.8548387786013
   },
   "generated_by": {
     "program": "augur",
-    "version": "28.0.0"
+    "version": "29.0.0"
   },
   "input_tree": "results/h5n1-franklin-county-outbreak/genome/tree-raw.nwk",
   "nodes": {
     "A/Canada_Goose/BC/AIVPHL-2524/2024": {
-      "branch_length": 1.956472548927436e-05,
-      "clock_length": 1.956472548927436e-05,
+      "branch_length": 1.2653026007837e-05,
+      "clock_length": 1.2653026007837e-05,
       "date": "2024-10-08",
-      "mutation_length": 1.1392355137891458e-17,
+      "date_inferred": false,
+      "mutation_length": 4.507426228403101e-17,
       "num_date_confidence": [
         2024.76912568306,
         2024.76912568306
@@ -24,10 +25,11 @@
       "raw_date": "2024-10-08"
     },
     "A/Canada_Goose/BC/AIVPHL-2530/2024": {
-      "branch_length": 6.732451752546422e-05,
-      "clock_length": 6.732451752546422e-05,
+      "branch_length": 6.041281804402697e-05,
+      "clock_length": 6.041281804402697e-05,
       "date": "2024-10-14",
-      "mutation_length": 0.0001480718826366925,
+      "date_inferred": false,
+      "mutation_length": 0.00014796762680348627,
       "num_date_confidence": [
         2024.785519125683,
         2024.785519125683
@@ -36,10 +38,11 @@
       "raw_date": "2024-10-14"
     },
     "A/Canada_Goose/BC/AIVPHL-2531/2024": {
-      "branch_length": 0.0008038398017959653,
-      "clock_length": 0.0008038398017959653,
+      "branch_length": 0.0006475051638143055,
+      "clock_length": 0.0006475051638143055,
       "date": "2024-10-14",
-      "mutation_length": 0.001185659781984189,
+      "date_inferred": false,
+      "mutation_length": 0.001184827759248625,
       "num_date_confidence": [
         2024.785519125683,
         2024.785519125683
@@ -48,10 +51,11 @@
       "raw_date": "2024-10-14"
     },
     "A/Louisiana/12/2024": {
-      "branch_length": 0.001086303211878649,
-      "clock_length": 0.001086303211878649,
+      "branch_length": 0.0009776290794366806,
+      "clock_length": 0.0009776290794366806,
       "date": "2024-12-11",
-      "mutation_length": 0.0011860976794050378,
+      "date_inferred": false,
+      "mutation_length": 0.001185268439515113,
       "num_date_confidence": [
         2024.9439890710382,
         2024.9439890710382
@@ -60,10 +64,11 @@
       "raw_date": "2024-12-11"
     },
     "A/Red_Tailed_Hawk/BC/AIVPHL-2513/2024": {
-      "branch_length": 0.0005689054648211402,
-      "clock_length": 0.0005689054648211402,
+      "branch_length": 0.0004602313323791717,
+      "clock_length": 0.0004602313323791717,
       "date": "2024-10-07",
-      "mutation_length": 0.0005926098591886879,
+      "date_inferred": false,
+      "mutation_length": 0.00059219513561705,
       "num_date_confidence": [
         2024.766393442623,
         2024.766393442623
@@ -72,10 +77,11 @@
       "raw_date": "2024-10-07"
     },
     "A/Washington/254/2024-egg": {
-      "branch_length": 7.432678514356214e-05,
-      "clock_length": 7.432678514356214e-05,
+      "branch_length": 2.2298035543068728e-05,
+      "clock_length": 2.2298035543068728e-05,
       "date": "2024-10-23",
-      "mutation_length": 1.1392355137891458e-17,
+      "date_inferred": false,
+      "mutation_length": 4.507426228403101e-17,
       "num_date_confidence": [
         2024.8101092896175,
         2024.8101092896175
@@ -84,10 +90,11 @@
       "raw_date": "2024-10-23"
     },
     "A/Washington/255/2024": {
-      "branch_length": 0.00018567031256223876,
-      "clock_length": 0.00018567031256223876,
+      "branch_length": 0.00018516436891049355,
+      "clock_length": 0.00018516436891049355,
       "date": "2024-10-29",
-      "mutation_length": 7.404445643114982e-05,
+      "date_inferred": false,
+      "mutation_length": 7.399219319463114e-05,
       "num_date_confidence": [
         2024.8265027322404,
         2024.8265027322404
@@ -96,10 +103,11 @@
       "raw_date": "2024-10-29"
     },
     "A/Washington/UW32495/2024": {
-      "branch_length": 5.610102378033482e-05,
-      "clock_length": 5.610102378033482e-05,
+      "branch_length": 5.6061486973963586e-05,
+      "clock_length": 5.6061486973963586e-05,
       "date": "2024-10-18",
-      "mutation_length": 7.404774304027324e-05,
+      "date_inferred": false,
+      "mutation_length": 7.399555840830884e-05,
       "num_date_confidence": [
         2024.7964480874316,
         2024.7964480874316
@@ -108,10 +116,11 @@
       "raw_date": "2024-10-18"
     },
     "A/chicken/Iwate/22A5T/2023": {
-      "branch_length": 0.03666426909362266,
-      "clock_length": 0.03666426909362266,
+      "branch_length": 0.035347300669888775,
+      "clock_length": 0.035347300669888775,
       "date": "2023-03-14",
-      "mutation_length": 0.014909984398248513,
+      "date_inferred": false,
+      "mutation_length": 4.507426228403101e-17,
       "num_date_confidence": [
         2023.1986301369864,
         2023.1986301369864
@@ -123,7 +132,8 @@
       "branch_length": 7.43267851435617e-06,
       "clock_length": 7.43267851435617e-06,
       "date": "2024-10-21",
-      "mutation_length": 1.1392355137891458e-17,
+      "date_inferred": false,
+      "mutation_length": 4.507426228403101e-17,
       "num_date_confidence": [
         2024.8046448087432,
         2024.8046448087432
@@ -135,7 +145,8 @@
       "branch_length": 7.43267851435617e-06,
       "clock_length": 7.43267851435617e-06,
       "date": "2024-10-21",
-      "mutation_length": 1.1392355137891458e-17,
+      "date_inferred": false,
+      "mutation_length": 4.507426228403101e-17,
       "num_date_confidence": [
         2024.8046448087432,
         2024.8046448087432
@@ -144,10 +155,11 @@
       "raw_date": "2024-10-21"
     },
     "A/chicken/Washington/24-030039-001/2024": {
-      "branch_length": 0.00011864196184284848,
-      "clock_length": 0.00011864196184284848,
+      "branch_length": 6.730227042416439e-05,
+      "clock_length": 6.730227042416439e-05,
       "date": "2024-10-11",
-      "mutation_length": 0.00014812715389658245,
+      "date_inferred": false,
+      "mutation_length": 0.00014802295291103308,
       "num_date_confidence": [
         2024.7773224043715,
         2024.7773224043715
@@ -156,10 +168,11 @@
       "raw_date": "2024-10-11"
     },
     "A/chicken/Washington/24-030039-002/2024": {
-      "branch_length": 3.8126640489037113e-07,
-      "clock_length": 3.8126640489037113e-07,
+      "branch_length": 3.417295985190267e-07,
+      "clock_length": 3.417295985190267e-07,
       "date": "2024-10-11",
-      "mutation_length": 1.1392355137891458e-17,
+      "date_inferred": false,
+      "mutation_length": 4.507426228403101e-17,
       "num_date_confidence": [
         2024.7773224043715,
         2024.7773224043715
@@ -168,10 +181,11 @@
       "raw_date": "2024-10-11"
     },
     "A/chicken/Washington/24-031352-001/2024": {
-      "branch_length": 0.0002000294785941435,
-      "clock_length": 0.0002000294785941435,
+      "branch_length": 0.00015009111910188654,
+      "clock_length": 0.00015009111910188654,
       "date": "2024-10-21",
-      "mutation_length": 0.0002221909781617007,
+      "date_inferred": false,
+      "mutation_length": 0.00022203605679463245,
       "num_date_confidence": [
         2024.8046448087432,
         2024.8046448087432
@@ -183,7 +197,8 @@
       "branch_length": 7.43267851435617e-06,
       "clock_length": 7.43267851435617e-06,
       "date": "2024-10-21",
-      "mutation_length": 1.1392355137891458e-17,
+      "date_inferred": false,
+      "mutation_length": 4.507426228403101e-17,
       "num_date_confidence": [
         2024.8046448087432,
         2024.8046448087432
@@ -195,7 +210,8 @@
       "branch_length": 7.43267851435617e-06,
       "clock_length": 7.43267851435617e-06,
       "date": "2024-10-21",
-      "mutation_length": 1.1392355137891458e-17,
+      "date_inferred": false,
+      "mutation_length": 4.507426228403101e-17,
       "num_date_confidence": [
         2024.8046448087432,
         2024.8046448087432
@@ -204,10 +220,11 @@
       "raw_date": "2024-10-21"
     },
     "A/chicken/Washington/W242850087-1/2024": {
-      "branch_length": 4.239093645366917e-05,
-      "clock_length": 4.239093645366917e-05,
+      "branch_length": 4.1884992801924066e-05,
+      "clock_length": 4.1884992801924066e-05,
       "date": "2024-10-11",
-      "mutation_length": 0.0001481146614877768,
+      "date_inferred": false,
+      "mutation_length": 0.0001480102672216136,
       "num_date_confidence": [
         2024.7773224043715,
         2024.7773224043715
@@ -216,10 +233,11 @@
       "raw_date": "2024-10-11"
     },
     "A/chicken/Washington/W242850087-2/2024": {
-      "branch_length": 3.8126640489037113e-07,
-      "clock_length": 3.8126640489037113e-07,
+      "branch_length": 3.417295985190267e-07,
+      "clock_length": 3.417295985190267e-07,
       "date": "2024-10-11",
-      "mutation_length": 1.1392355137891458e-17,
+      "date_inferred": false,
+      "mutation_length": 4.507426228403101e-17,
       "num_date_confidence": [
         2024.7773224043715,
         2024.7773224043715
@@ -228,10 +246,11 @@
       "raw_date": "2024-10-11"
     },
     "A/guineafowl/Washington/24-030328-001/2024": {
-      "branch_length": 1.4865357028712449e-05,
-      "clock_length": 1.4865357028712449e-05,
+      "branch_length": 1.486535702871234e-05,
+      "clock_length": 1.486535702871234e-05,
       "date": "2024-10-15",
-      "mutation_length": 1.1392355137891458e-17,
+      "date_inferred": false,
+      "mutation_length": 4.507426228403101e-17,
       "num_date_confidence": [
         2024.7882513661202,
         2024.7882513661202
@@ -240,10 +259,11 @@
       "raw_date": "2024-10-15"
     },
     "A/guineafowl/Washington/24-030328-002/2024": {
-      "branch_length": 1.4865357028712449e-05,
-      "clock_length": 1.4865357028712449e-05,
+      "branch_length": 1.486535702871234e-05,
+      "clock_length": 1.486535702871234e-05,
       "date": "2024-10-15",
-      "mutation_length": 1.1392355137891458e-17,
+      "date_inferred": false,
+      "mutation_length": 4.507426228403101e-17,
       "num_date_confidence": [
         2024.7882513661202,
         2024.7882513661202
@@ -252,204 +272,222 @@
       "raw_date": "2024-10-15"
     },
     "NODE_0000000": {
-      "branch_length": 0.00017921457959938067,
-      "clock_length": 0.00017921457959938067,
-      "date": "2024-07-28",
-      "mutation_length": 0.00014738132318155926,
-      "num_date_confidence": [
-        2023.991783510146,
-        2024.6851857241338
-      ],
-      "numdate": 2024.5711179043965
-    },
-    "NODE_0000001": {
-      "branch_length": 6.81243851660975e-05,
-      "clock_length": 6.81243851660975e-05,
-      "date": "2024-07-05",
-      "mutation_length": 7.368720697788713e-05,
-      "num_date_confidence": [
-        2023.82899024777,
-        2024.6241612614172
-      ],
-      "numdate": 2024.5096028976805
-    },
-    "NODE_0000002": {
       "branch_length": 0.001,
       "clock_length": 0.001,
-      "date": "2010-08-13",
+      "date": "2011-01-24",
+      "date_inferred": true,
       "mutation_length": 0.001,
       "num_date_confidence": [
-        1988.4918480710928,
-        2018.0385473848985
+        1987.858671547401,
+        2018.4975252040638
       ],
-      "numdate": 2010.6137011397136
+      "numdate": 2011.0657476284086
     },
-    "NODE_0000003": {
-      "branch_length": 0.0006595300805772662,
-      "clock_length": 0.0006595300805772662,
-      "date": "2024-09-26",
-      "mutation_length": 0.0010326113502733857,
+    "NODE_0000001": {
+      "branch_length": 0.03927944151271678,
+      "clock_length": 0.03927944151271678,
+      "date": "2024-07-19",
+      "date_inferred": true,
+      "mutation_length": 0.0787224107985772,
       "num_date_confidence": [
-        2024.5725734899497,
-        2024.7823628180283
+        2023.7602027470114,
+        2024.6228327066672
       ],
-      "numdate": 2024.7359851341416
+      "numdate": 2024.548328754676
     },
-    "NODE_0000004": {
-      "branch_length": 0.00019259680007978732,
-      "clock_length": 0.00019259680007978732,
+    "NODE_0000002": {
+      "branch_length": 0.0007393050091888185,
+      "clock_length": 0.0007393050091888185,
       "date": "2024-10-20",
-      "mutation_length": 0.00029478594143557895,
+      "date_inferred": true,
+      "mutation_length": 0.0011790798807520917,
       "num_date_confidence": [
-        2024.764809354883,
+        2024.7633217793061,
         2024.8046448087432
       ],
       "numdate": 2024.8020935583386
     },
-    "NODE_0000006": {
-      "branch_length": 0.0007969344101065075,
-      "clock_length": 0.0007969344101065075,
-      "date": "2024-10-13",
-      "mutation_length": 0.0011062485408202707,
+    "NODE_0000004": {
+      "branch_length": 4.351276651342489e-05,
+      "clock_length": 4.351276651342489e-05,
+      "date": "2024-07-25",
+      "date_inferred": true,
+      "mutation_length": 7.36363342571456e-05,
       "num_date_confidence": [
-        2024.7646780704024,
+        2023.8164372540461,
+        2024.634956816804
+      ],
+      "numdate": 2024.5632644152138
+    },
+    "NODE_0000005": {
+      "branch_length": 0.0006405997721248477,
+      "clock_length": 0.0006405997721248477,
+      "date": "2024-10-13",
+      "date_inferred": true,
+      "mutation_length": 0.001105487490321623,
+      "num_date_confidence": [
+        2024.7669224383537,
         2024.7882513661202
       ],
       "numdate": 2024.7831488653107
     },
-    "NODE_0000007": {
-      "branch_length": 0.04041546367981633,
-      "clock_length": 0.04041546367981633,
-      "date": "2024-06-26",
-      "mutation_length": 0.06281446703849308,
+    "NODE_0000008": {
+      "branch_length": 0.00013155407405968924,
+      "clock_length": 0.00013155407405968924,
+      "date": "2024-08-10",
+      "date_inferred": true,
+      "mutation_length": 0.0001472793914440527,
       "num_date_confidence": [
-        2023.7731094599906,
-        2024.6064451316113
+        2023.9824979399232,
+        2024.6950221021298
       ],
-      "numdate": 2024.4862193536608
+      "numdate": 2024.6084200591765
     },
     "NODE_0000009": {
-      "branch_length": 0.000920251265823151,
-      "clock_length": 0.000920251265823151,
-      "date": "2024-10-20",
-      "mutation_length": 0.0011798980684219265,
+      "branch_length": 0.0005531338020878633,
+      "clock_length": 0.0005531338020878633,
+      "date": "2024-10-02",
+      "date_inferred": true,
+      "mutation_length": 0.0010319008948698207,
       "num_date_confidence": [
-        2024.7609762276306,
+        2024.5666246761914,
+        2024.7760919111613
+      ],
+      "numdate": 2024.753126365209
+    },
+    "NODE_0000010": {
+      "branch_length": 0.00014265844058753037,
+      "clock_length": 0.00014265844058753037,
+      "date": "2024-10-20",
+      "date_inferred": true,
+      "mutation_length": 0.0002945827059891799,
+      "num_date_confidence": [
+        2024.7665939449848,
         2024.8046448087432
       ],
       "numdate": 2024.8020935583386
     },
-    "NODE_0000010": {
-      "branch_length": 0.0004045895449969572,
-      "clock_length": 0.0004045895449969572,
-      "date": "2024-08-16",
-      "mutation_length": 0.0003685260256546275,
-      "num_date_confidence": [
-        2024.4027812837269,
-        2024.7129340707852
-      ],
-      "numdate": 2024.6250938170745
-    },
     "NODE_0000011": {
-      "branch_length": 0.0004000501244396414,
-      "clock_length": 0.0004000501244396414,
-      "date": "2024-10-06",
-      "mutation_length": 0.00036854547131434136,
+      "branch_length": 0.0002876197079397318,
+      "clock_length": 0.0002876197079397318,
+      "date": "2024-08-24",
+      "date_inferred": true,
+      "mutation_length": 0.0003682714281813815,
       "num_date_confidence": [
-        2024.7312587053482,
-        2024.76912568306
+        2024.4782737085563,
+        2024.6999080923185
       ],
-      "numdate": 2024.7624101344559
+      "numdate": 2024.647053581111
     },
     "NODE_0000012": {
-      "branch_length": 0.00032485278410383095,
-      "clock_length": 0.00032485278410383095,
-      "date": "2024-09-26",
-      "mutation_length": 0.0003685026620830978,
+      "branch_length": 0.0003429854043439716,
+      "clock_length": 0.0003429854043439716,
+      "date": "2024-10-06",
+      "date_inferred": true,
+      "mutation_length": 0.00036829030826593487,
       "num_date_confidence": [
-        2024.6720309284965,
-        2024.7723308536092
+        2024.7380376937112,
+        2024.76912568306
       ],
-      "numdate": 2024.7365988142715
+      "numdate": 2024.7647825599638
     },
     "NODE_0000013": {
-      "branch_length": 0.00013983476077166607,
-      "clock_length": 0.00013983476077166607,
-      "date": "2024-10-14",
-      "mutation_length": 7.368525605162281e-05,
+      "branch_length": 0.00031221605594540795,
+      "clock_length": 0.00031221605594540795,
+      "date": "2024-10-03",
+      "date_inferred": true,
+      "mutation_length": 0.0003682481216948978,
       "num_date_confidence": [
-        2024.7342921621516,
-        2024.8101092896175
+        2024.6818856458874,
+        2024.762651457517
       ],
-      "numdate": 2024.7845967855706
+      "numdate": 2024.7542210494125
     },
     "NODE_0000014": {
-      "branch_length": 0.0006348583183103083,
-      "clock_length": 0.0006348583183103083,
-      "date": "2025-01-01",
-      "mutation_length": 0.00044224227668124977,
+      "branch_length": 0.00014052381895347538,
+      "clock_length": 0.00014052381895347538,
+      "date": "2024-10-20",
+      "date_inferred": true,
+      "mutation_length": 7.363426708698346e-05,
       "num_date_confidence": [
-        2024.9715893749526,
-        2025.0438273548618
+        2024.7524256573304,
+        2024.807007081918
       ],
-      "numdate": 2025.0025104943877
+      "numdate": 2024.8024555384034
     },
-    "NODE_0000017": {
-      "branch_length": 7.625102538917931e-05,
-      "clock_length": 7.625102538917931e-05,
+    "NODE_0000015": {
+      "branch_length": 0.0005853117068314617,
+      "clock_length": 0.0005853117068314617,
+      "date": "2025-01-02",
+      "date_inferred": true,
+      "mutation_length": 0.00044193705575181717,
+      "num_date_confidence": [
+        2024.975802783554,
+        2025.15428551118
+      ],
+      "numdate": 2025.0033624827895
+    },
+    "NODE_0000018": {
+      "branch_length": 2.541727762224032e-05,
+      "clock_length": 2.541727762224032e-05,
       "date": "2024-10-06",
-      "mutation_length": 7.368702613397469e-05,
+      "date_inferred": true,
+      "mutation_length": 7.363587433436776e-05,
       "num_date_confidence": [
-        2024.7353645362218,
-        2024.770454830025
+        2024.7372086518703,
+        2024.7709662297243
       ],
-      "numdate": 2024.762771809512
+      "numdate": 2024.7629454735477
     },
-    "NODE_0000019": {
-      "branch_length": 4.20096700487788e-05,
-      "clock_length": 4.20096700487788e-05,
+    "NODE_0000020": {
+      "branch_length": 4.154326320340504e-05,
+      "clock_length": 4.154326320340504e-05,
       "date": "2024-10-11",
-      "mutation_length": 7.368704528179908e-05,
+      "date_inferred": true,
+      "mutation_length": 7.36357898323816e-05,
       "num_date_confidence": [
-        2024.764647381954,
+        2024.765198163691,
         2024.7773224043715
       ],
-      "numdate": 2024.7771915355243
+      "numdate": 2024.7772051064453
     },
     "W250220054-1_2025": {
-      "branch_length": 3.059522663031051e-05,
-      "clock_length": 3.059522663031051e-05,
-      "date": "2025-01-05",
-      "mutation_length": 1.1392355137891458e-17,
+      "branch_length": 5.058295022654461e-05,
+      "clock_length": 5.058295022654461e-05,
+      "date": "2025-01-08",
+      "date_inferred": true,
+      "mutation_length": 4.507426228403101e-17,
       "num_date_confidence": [
         2025.0013698630137,
-        2025.0863013698631
+        2025.1794520547944
       ],
-      "numdate": 2025.0130122380285,
+      "numdate": 2025.0207249681957,
       "raw_date": "2025-XX-XX"
     },
     "W250220054-6_2025": {
-      "branch_length": 3.059522663031051e-05,
-      "clock_length": 3.059522663031051e-05,
-      "date": "2025-01-05",
-      "mutation_length": 1.1392355137891458e-17,
+      "branch_length": 5.058295022654461e-05,
+      "clock_length": 5.058295022654461e-05,
+      "date": "2025-01-08",
+      "date_inferred": true,
+      "mutation_length": 4.507426228403101e-17,
       "num_date_confidence": [
         2025.0013698630137,
-        2025.0863013698631
+        2025.1794520547944
       ],
-      "numdate": 2025.0130122380285,
+      "numdate": 2025.0207249681957,
       "raw_date": "2025-XX-XX"
     },
     "W250220054-7_2025": {
-      "branch_length": 0.0002028049485247958,
-      "clock_length": 0.0002028049485247958,
-      "date": "2025-01-27",
-      "mutation_length": 0.0001481210579202439,
+      "branch_length": 0.00023773636663790233,
+      "clock_length": 0.00023773636663790233,
+      "date": "2025-02-01",
+      "date_inferred": true,
+      "mutation_length": 0.0001480173341630877,
       "num_date_confidence": [
         2025.0013698630137,
-        2025.0863013698631
+        2025.1794520547944
       ],
-      "numdate": 2025.0721228428833,
+      "numdate": 2025.0849649630288,
       "raw_date": "2025-XX-XX"
     }
   }

@@ -37,6 +37,9 @@ outgroup_metadata_df["sequence"] = outgroup_metadata_df["Accession"].map(fasta_d
 # Step 4: Extract 'Isolate_Name' from 'GenBank_Title'
 outgroup_metadata_df["Isolate_Name"] = outgroup_metadata_df["GenBank_Title"].apply(extract_isolate_name)
 
+# Remove spaces from Isolate_Name
+outgroup_metadata_df["Isolate_Name"] = outgroup_metadata_df["Isolate_Name"].str.replace(" ", "", regex=True)
+
 # Step 5: Save the merged outgroup data
 merged_outgroup_metadata_file = os.path.join(results_dir, "merged_outgroup_metadata_sequences.csv")
 outgroup_metadata_df.to_csv(merged_outgroup_metadata_file, index=False)

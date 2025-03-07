@@ -42,7 +42,13 @@ filtered_df = df[df['Isolate_Name'].isin(valid_isolates)]
 filtered_df['strain'] = filtered_df['Isolate_Name']
 filtered_df['virus'] = 'avian_flu'  # All rows will have this value
 filtered_df['isolate_id'] = filtered_df['Isolate_Name']  # Assuming 'Isolate_Name' is the isolate_id
-filtered_df['date'] = filtered_df['Collection_Date']
+
+# Treat 'Collection_Date' as a string and assign it to 'date' column
+filtered_df['date'] = filtered_df['Collection_Date'].astype(str)
+
+# Reformat the date column to a consistent format (YYYY-MM-DD) before exporting to CSV
+filtered_df['date'] = pd.to_datetime(filtered_df['date'], errors='coerce')
+filtered_df['date'] = filtered_df['date'].dt.strftime('%Y-%m-%d')
 
 # --- Assign region and country ---
 filtered_df['region'] = filtered_df['Country'].apply(lambda x: 'North America' if x == 'USA' else ('Asia' if x == 'Japan' else 'Other'))
@@ -65,44 +71,18 @@ final_metadata_df = filtered_df[final_columns]
 # Remove redundant rows based on all columns
 final_metadata_df = final_metadata_df.drop_duplicates()
 
-# Define the output path for the results (relative to the script's directory)
+# Save the filtered and transformed metadata to the output CSV file (comma-separated)
 output_metadata_csv = os.path.join(script_dir, "../results/nextstrain_files/metadata_segment_HA_NA.csv")
-
-# Ensure the nextstrain_files/ directory exists
-os.makedirs(os.path.dirname(output_metadata_csv), exist_ok=True)
-
-# Save the filtered and transformed metadata to the output CSV file
 final_metadata_df.to_csv(output_metadata_csv, index=False)
 
+# Print confirmation for CSV save
 print(f"Metadata for Isolates with both Segment 4 and 6 (without redundant rows) has been written to {output_metadata_csv}")
 
-# --- Generating the FASTA files for HA and NA sequences ---
+# Define the output path for the TSV file (tab-separated)
+output_metadata_tsv = os.path.join(script_dir, "../results/nextstrain_files/metadata_segment_HA_NA.tsv")
 
-# Filter the dataframe for HA (Segment 4) and NA (Segment 6) sequences
-ha_df = filtered_df[filtered_df['Segment'] == 4]
-na_df = filtered_df[filtered_df['Segment'] == 6]
+# Save the filtered and transformed metadata to the output TSV file (tab-separated)
+final_metadata_df.to_csv(output_metadata_tsv, sep='\t', index=False)
 
-# Define the output directory for the FASTA files (relative to the script's directory)
-output_fasta_dir = os.path.join(script_dir, "../results/nextstrain_files/")
-
-# Ensure the nextstrain_files/ directory exists
-os.makedirs(output_fasta_dir, exist_ok=True)
-
-# Write the HA sequences to a FASTA file
-ha_fasta_file = os.path.join(output_fasta_dir, "ha_sequences.fasta")
-with open(ha_fasta_file, "w") as ha_file:
-    for _, row in ha_df.iterrows():
-        header = row["Isolate_Name"]
-        sequence = row["sequence"]
-        ha_file.write(f">{header}\n{sequence}\n")
-
-# Write the NA sequences to a FASTA file
-na_fasta_file = os.path.join(output_fasta_dir, "na_sequences.fasta")
-with open(na_fasta_file, "w") as na_file:
-    for _, row in na_df.iterrows():
-        header = row["Isolate_Name"]
-        sequence = row["sequence"]
-        na_file.write(f">{header}\n{sequence}\n")
-
-print(f"HA sequences written to {ha_fasta_file}")
-print(f"NA sequences written to {na_fasta_file}")
+# Print confirmation for TSV save
+print(f"Metadata for Isolates with both Segment 4 and 6 (without redundant rows) has been written to {output_metadata_tsv}")

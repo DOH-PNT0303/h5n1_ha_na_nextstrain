@@ -1,0 +1,639 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "29.0.0"
+  },
+  "models": {
+    "host": {
+      "alphabet": [
+        "Anatidae",
+        "Corvus macrorhynchos",
+        "Gallus gallus",
+        "Homo sapiens",
+        "Numididae sp.",
+        "Pavo",
+        "Sus scrofa",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.12800350282491338,
+        0.12719487122592313,
+        0.18395882819531387,
+        0.1621474181858808,
+        0.13036890883312807,
+        0.13440764736913263,
+        0.13391882336570815
+      ],
+      "rate": 802.6643671705285,
+      "transition_matrix": [
+        [
+          0.0,
+          0.8958106868011698,
+          1.8567756388076413,
+          0.8866153133582361,
+          0.8865167259979722,
+          1.3560082778690523,
+          1.3309275223101529
+        ],
+        [
+          0.8958106868011698,
+          0.0,
+          1.8004229643870928,
+          0.9202928015638799,
+          0.8946508259922198,
+          0.893336493896049,
+          0.8933127937930808
+        ],
+        [
+          1.8567756388076413,
+          1.8004229643870928,
+          0.0,
+          2.5257402901772266,
+          1.3475633878679485,
+          0.8905253416894501,
+          0.8908617211670711
+        ],
+        [
+          0.8866153133582361,
+          0.9202928015638799,
+          2.5257402901772266,
+          0.0,
+          0.8866365856219834,
+          0.8865280188365984,
+          0.8865319946428097
+        ],
+        [
+          0.8865167259979722,
+          0.8946508259922198,
+          1.3475633878679485,
+          0.8866365856219834,
+          0.0,
+          0.8867564970894721,
+          0.8867581463195301
+        ],
+        [
+          1.3560082778690523,
+          0.893336493896049,
+          0.8905253416894501,
+          0.8865280188365984,
+          0.8867564970894721,
+          0.0,
+          0.8868799271379653
+        ],
+        [
+          1.3309275223101529,
+          0.8933127937930808,
+          0.8908617211670711,
+          0.8865319946428097,
+          0.8867581463195301,
+          0.8868799271379653,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "A/Duck/OR/24-031478-003-original/2024": {
+      "host": "Anatidae",
+      "host_confidence": {
+        "Anatidae": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/Duck/OR/24-037944-001-original/2024": {
+      "host": "Anatidae",
+      "host_confidence": {
+        "Anatidae": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/Guineafowl/WA/24-030328-001-original/2024": {
+      "host": "Numididae sp.",
+      "host_confidence": {
+        "Numididae sp.": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/Guineafowl/WA/24-030328-002-original/2024": {
+      "host": "Numididae sp.",
+      "host_confidence": {
+        "Numididae sp.": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/Peafowl/OR/24-031478-001-original/2024": {
+      "host": "Pavo",
+      "host_confidence": {
+        "Pavo": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/Washington/239/2024": {
+      "host": "Homo sapiens",
+      "host_confidence": {
+        "Homo sapiens": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/Washington/240/2024": {
+      "host": "Homo sapiens",
+      "host_confidence": {
+        "Homo sapiens": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/Washington/251/2024": {
+      "host": "Homo sapiens",
+      "host_confidence": {
+        "Homo sapiens": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/Washington/252/2024": {
+      "host": "Homo sapiens",
+      "host_confidence": {
+        "Homo sapiens": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/Washington/253/2024": {
+      "host": "Homo sapiens",
+      "host_confidence": {
+        "Homo sapiens": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/Washington/254/2024": {
+      "host": "Homo sapiens",
+      "host_confidence": {
+        "Homo sapiens": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/Washington/255/2024": {
+      "host": "Homo sapiens",
+      "host_confidence": {
+        "Homo sapiens": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/Washington/UW32495/2024": {
+      "host": "Homo sapiens",
+      "host_confidence": {
+        "Homo sapiens": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/OR/24-030904-001-original/2024": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Gallus gallus": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/OR/24-030904-002-original/2024": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Gallus gallus": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/OR/24-035148-001-original/2024": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Gallus gallus": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/OR/24-035148-002-original/2024": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Gallus gallus": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/OR/24-037945-001-original/2024": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Gallus gallus": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/OR/24-037945-002-original/2024": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Gallus gallus": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/WA/24-030039-001/2024": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Gallus gallus": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/WA/24-030039-002/2024": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Gallus gallus": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/WA/24-031352-001-original/2024": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Gallus gallus": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/WA/24-031352-002-original/2024": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Gallus gallus": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/WA/24-031352-003-original/2024": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Gallus gallus": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/WA/24-034062-001-original/2024": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Gallus gallus": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/chicken/Washington/W242850087-1/2024": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Gallus gallus": 0.9999999999999999
+      },
+      "host_entropy": -9.99866855976916e-13
+    },
+    "A/chicken/Washington/W242850087-2/2024": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Gallus gallus": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/goose/OR/24-031478-002-original/2024": {
+      "host": "Anatidae",
+      "host_confidence": {
+        "Anatidae": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/goose/WA/24-033829-001-original/2024": {
+      "host": "Anatidae",
+      "host_confidence": {
+        "Anatidae": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/junglecrow/Iwate/0304I001/2022": {
+      "host": "Corvus macrorhynchos",
+      "host_confidence": {
+        "Corvus macrorhynchos": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "A/pig/OR/24-031264-004-combined/2024": {
+      "host": "Sus scrofa",
+      "host_confidence": {
+        "Sus scrofa": 1.0
+      },
+      "host_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000000": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Anatidae": 0.12800251999330675,
+        "Corvus macrorhynchos": 0.1272010610078042,
+        "Gallus gallus": 0.18396129636167832,
+        "Homo sapiens": 0.16214932127601084,
+        "Numididae sp.": 0.1303675857673538,
+        "Pavo": 0.13440354303042631,
+        "Sus scrofa": 0.13391467256341977
+      },
+      "host_entropy": 1.9364510701963913
+    },
+    "NODE_0000001": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Anatidae": 0.12800306377842632,
+        "Corvus macrorhynchos": 0.12719761935585647,
+        "Gallus gallus": 0.1839600179179261,
+        "Homo sapiens": 0.1621483995869279,
+        "Numididae sp.": 0.1303683686709931,
+        "Pavo": 0.1344056903909931,
+        "Sus scrofa": 0.1339168402988769
+      },
+      "host_entropy": 1.9364515131001667
+    },
+    "NODE_0000002": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Anatidae": 0.05650841919665032,
+        "Corvus macrorhynchos": 0.05596206334442537,
+        "Gallus gallus": 0.6858915501879386,
+        "Homo sapiens": 0.11010118961069461,
+        "Numididae sp.": 0.039828386064620226,
+        "Pavo": 0.025915045923818585,
+        "Sus scrofa": 0.02579334567185198
+      },
+      "host_entropy": 1.1426230250326832
+    },
+    "NODE_0000003": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Anatidae": 0.09678617343860631,
+        "Corvus macrorhynchos": 0.08278047590069645,
+        "Gallus gallus": 0.2973090025471316,
+        "Homo sapiens": 0.281060301031657,
+        "Numididae sp.": 0.131309242082634,
+        "Pavo": 0.05553166344212846,
+        "Sus scrofa": 0.05522314155714617
+      },
+      "host_entropy": 1.7366833538952198
+    },
+    "NODE_0000004": {
+      "host": "Homo sapiens",
+      "host_confidence": {
+        "Anatidae": 0.06580060615869947,
+        "Corvus macrorhynchos": 0.06428010940277398,
+        "Gallus gallus": 0.3140555507472772,
+        "Homo sapiens": 0.4129071357263843,
+        "Numididae sp.": 0.06672733758543205,
+        "Pavo": 0.03822348406910934,
+        "Sus scrofa": 0.03800577631032389
+      },
+      "host_entropy": 1.514126137089068
+    },
+    "NODE_0000006": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Anatidae": 0.05755402879231245,
+        "Corvus macrorhynchos": 0.05808908789747276,
+        "Gallus gallus": 0.5694972140242484,
+        "Homo sapiens": 0.2197268214289737,
+        "Numididae sp.": 0.04391223384314304,
+        "Pavo": 0.02568369155136169,
+        "Sus scrofa": 0.02553692246248803
+      },
+      "host_entropy": 1.308183856431814
+    },
+    "NODE_0000007": {
+      "host": "Homo sapiens",
+      "host_confidence": {
+        "Anatidae": 0.024054162733295806,
+        "Corvus macrorhynchos": 0.024826297564008924,
+        "Gallus gallus": 0.1339278428786233,
+        "Homo sapiens": 0.7594141003647883,
+        "Numididae sp.": 0.022961216483720934,
+        "Pavo": 0.017451295320175912,
+        "Sus scrofa": 0.017365084655386942
+      },
+      "host_entropy": 0.8873566481739308
+    },
+    "NODE_0000008": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Anatidae": 0.053591714474530164,
+        "Corvus macrorhynchos": 0.054713207711136434,
+        "Gallus gallus": 0.6395683174584026,
+        "Homo sapiens": 0.1727195911780982,
+        "Numididae sp.": 0.036563381318754695,
+        "Pavo": 0.021484564098896555,
+        "Sus scrofa": 0.021359223760181408
+      },
+      "host_entropy": 1.1906198838418824
+    },
+    "NODE_0000009": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Anatidae": 0.05012863493187708,
+        "Corvus macrorhynchos": 0.05134160405656452,
+        "Gallus gallus": 0.6290697347611836,
+        "Homo sapiens": 0.1952433540867909,
+        "Numididae sp.": 0.0336702798346078,
+        "Pavo": 0.020331124419954393,
+        "Sus scrofa": 0.020215267909021756
+      },
+      "host_entropy": 1.1852519820790441
+    },
+    "NODE_0000010": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Anatidae": 0.04206061321309253,
+        "Corvus macrorhynchos": 0.04322430266171795,
+        "Gallus gallus": 0.519936307815914,
+        "Homo sapiens": 0.3262863679406532,
+        "Numididae sp.": 0.029701095011160295,
+        "Pavo": 0.019446980084640644,
+        "Sus scrofa": 0.01934433327282135
+      },
+      "host_entropy": 1.231944448990918
+    },
+    "NODE_0000011": {
+      "host": "Homo sapiens",
+      "host_confidence": {
+        "Anatidae": 0.0170720133239399,
+        "Corvus macrorhynchos": 0.01792689323879841,
+        "Gallus gallus": 0.13928371936912706,
+        "Homo sapiens": 0.7888387937956239,
+        "Numididae sp.": 0.014124361507821932,
+        "Pavo": 0.011404093360126624,
+        "Sus scrofa": 0.01135012540456223
+      },
+      "host_entropy": 0.7652688583667041
+    },
+    "NODE_0000012": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Anatidae": 0.09422705131363955,
+        "Corvus macrorhynchos": 0.04716386838315564,
+        "Gallus gallus": 0.40671171111503945,
+        "Homo sapiens": 0.2092245361416947,
+        "Numididae sp.": 0.19737020036826922,
+        "Pavo": 0.022701186496966713,
+        "Sus scrofa": 0.022601446181234768
+      },
+      "host_entropy": 1.5516643817300926
+    },
+    "NODE_0000013": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Anatidae": 0.06262775055759157,
+        "Corvus macrorhynchos": 0.052628316775606046,
+        "Gallus gallus": 0.3838046107791478,
+        "Homo sapiens": 0.3647154122029807,
+        "Numididae sp.": 0.08082968547016917,
+        "Pavo": 0.027778993669853674,
+        "Sus scrofa": 0.027615230544651214
+      },
+      "host_entropy": 1.4658696409213745
+    },
+    "NODE_0000014": {
+      "host": "Homo sapiens",
+      "host_confidence": {
+        "Anatidae": 0.01029544011070743,
+        "Corvus macrorhynchos": 0.010796179645487779,
+        "Gallus gallus": 0.06904159963095552,
+        "Homo sapiens": 0.8836323849508015,
+        "Numididae sp.": 0.009560068395976715,
+        "Pavo": 0.008354934804578225,
+        "Sus scrofa": 0.008319392461492827
+      },
+      "host_entropy": 0.5141492378750381
+    },
+    "NODE_0000015": {
+      "host": "Homo sapiens",
+      "host_confidence": {
+        "Anatidae": 0.02409943626181804,
+        "Corvus macrorhynchos": 0.023772134147886575,
+        "Gallus gallus": 0.1466508955796535,
+        "Homo sapiens": 0.7480826639328759,
+        "Numididae sp.": 0.025383190022748414,
+        "Pavo": 0.016046770767963583,
+        "Sus scrofa": 0.01596490928705397
+      },
+      "host_entropy": 0.9029356962767079
+    },
+    "NODE_0000016": {
+      "host": "Homo sapiens",
+      "host_confidence": {
+        "Anatidae": 0.010405544072886132,
+        "Corvus macrorhynchos": 0.010799194815469171,
+        "Gallus gallus": 0.0711797604162633,
+        "Homo sapiens": 0.8812374228167098,
+        "Numididae sp.": 0.009933038249192363,
+        "Pavo": 0.008240370609882603,
+        "Sus scrofa": 0.008204669019596596
+      },
+      "host_entropy": 0.5206772330841294
+    },
+    "NODE_0000017": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Anatidae": 0.04029655306067931,
+        "Corvus macrorhynchos": 0.03833372359074827,
+        "Gallus gallus": 0.7674032720166597,
+        "Homo sapiens": 0.0961445686271105,
+        "Numididae sp.": 0.03089340248439781,
+        "Pavo": 0.013503406657147327,
+        "Sus scrofa": 0.013425073563257076
+      },
+      "host_entropy": 0.9061833450002799
+    },
+    "NODE_0000018": {
+      "host": "Numididae sp.",
+      "host_confidence": {
+        "Anatidae": 0.01954166022463605,
+        "Corvus macrorhynchos": 0.016268637977387142,
+        "Gallus gallus": 0.06300734560698595,
+        "Homo sapiens": 0.03411846433789646,
+        "Numididae sp.": 0.8425398833500323,
+        "Pavo": 0.012293954461238732,
+        "Sus scrofa": 0.012230054041823372
+      },
+      "host_entropy": 0.6856286705437608
+    },
+    "NODE_0000019": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Anatidae": 0.04212934834760146,
+        "Corvus macrorhynchos": 0.040209488589796984,
+        "Gallus gallus": 0.7024741387676364,
+        "Homo sapiens": 0.14911941129128764,
+        "Numididae sp.": 0.034275650060948175,
+        "Pavo": 0.015939835952100054,
+        "Sus scrofa": 0.01585212699062922
+      },
+      "host_entropy": 1.041790281651286
+    },
+    "NODE_0000020": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Anatidae": 0.06085965668060432,
+        "Corvus macrorhynchos": 0.05037049283446748,
+        "Gallus gallus": 0.6349116731872554,
+        "Homo sapiens": 0.14223435368538725,
+        "Numididae sp.": 0.07069572488039053,
+        "Pavo": 0.020526311712609033,
+        "Sus scrofa": 0.020401787019286164
+      },
+      "host_entropy": 1.2331715479935894
+    },
+    "NODE_0000022": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Anatidae": 0.2890358828075018,
+        "Corvus macrorhynchos": 0.0524374996859381,
+        "Gallus gallus": 0.3763060284491328,
+        "Homo sapiens": 0.13061911758931355,
+        "Numididae sp.": 0.07999035813966131,
+        "Pavo": 0.035551425480144457,
+        "Sus scrofa": 0.0360596878483079
+      },
+      "host_entropy": 1.587482150839082
+    },
+    "NODE_0000023": {
+      "host": "Gallus gallus",
+      "host_confidence": {
+        "Anatidae": 0.08776295512243107,
+        "Corvus macrorhynchos": 0.04174520562577248,
+        "Gallus gallus": 0.7006255193061505,
+        "Homo sapiens": 0.09656853992807883,
+        "Numididae sp.": 0.035359578328241034,
+        "Pavo": 0.018994472725148037,
+        "Sus scrofa": 0.01894372896417794
+      },
+      "host_entropy": 1.0897273732288641
+    },
+    "NODE_0000024": {
+      "host": "Anatidae",
+      "host_confidence": {
+        "Anatidae": 0.8581163300374038,
+        "Corvus macrorhynchos": 0.005793058365345836,
+        "Gallus gallus": 0.09940669586690938,
+        "Homo sapiens": 0.012690272859209303,
+        "Numididae sp.": 0.0052683590355764994,
+        "Pavo": 0.007140331871160985,
+        "Sus scrofa": 0.01158495196439409
+      },
+      "host_entropy": 0.5606188699359068
+    },
+    "NODE_0000027": {
+      "host": "Anatidae",
+      "host_confidence": {
+        "Anatidae": 0.7896018045480525,
+        "Corvus macrorhynchos": 0.008962159706645843,
+        "Gallus gallus": 0.03917625558923693,
+        "Homo sapiens": 0.013209913215046044,
+        "Numididae sp.": 0.008217407981481854,
+        "Pavo": 0.036307734076048724,
+        "Sus scrofa": 0.10452472488348817
+      },
+      "host_entropy": 0.8087481844365194
+    },
+    "NODE_0000028": {
+      "host": "Anatidae",
+      "host_confidence": {
+        "Anatidae": 0.6369896322956763,
+        "Corvus macrorhynchos": 0.017227417682880594,
+        "Gallus gallus": 0.05079728487127724,
+        "Homo sapiens": 0.023149376591060544,
+        "Numididae sp.": 0.016588450369224007,
+        "Pavo": 0.20746054789933202,
+        "Sus scrofa": 0.04778729029054931
+      },
+      "host_entropy": 1.1354102012553688
+    }
+  }
+}

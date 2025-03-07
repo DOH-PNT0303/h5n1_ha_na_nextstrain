@@ -48,7 +48,7 @@ Constructing a UPGMA tree (efffree=0) ...
 done.
 
 Progressive alignment 1/2... 
-STEP     1 / 23 (thread    0) fSTEP     2 / 23 (thread    1) fSTEP     3 / 23 (thread    2) fSTEP     4 / 23 (thread    3) fSTEP     5 / 23 (thread    4) fSTEP     9 / 23 (thread    4) fSTEP     6 / 23 (thread    5) fSTEP     7 / 23 (thread    6) fSTEP    12 / 23 (thread    3) fSTEP    11 / 23 (thread    0) fSTEP     8 / 23 (thread    7) fSTEP    10 / 23 (thread    2) fSTEP    13 / 23 (thread    1) fSTEP    14 / 23 (thread    4) fSTEP    15 / 23 (thread    3) fSTEP    16 / 23 (thread    5) fSTEP    17 / 23 (thread    0) fSTEP    18 / 23 (thread    6) fSTEP    19 / 23 (thread    7) fSTEP    20 / 23 (thread    2) fSTEP    21 / 23 (thread    1) fSTEP    22 / 23 (thread    4) fSTEP    23 / 23 (thread    3) f
+STEP     1 / 23 (thread    0) fSTEP     3 / 23 (thread    2) fSTEP     5 / 23 (thread    3) fSTEP     4 / 23 (thread    4) fSTEP     2 / 23 (thread    1) fSTEP     9 / 23 (thread    3) fSTEP     6 / 23 (thread    5) fSTEP     7 / 23 (thread    6) fSTEP    12 / 23 (thread    4) fSTEP    11 / 23 (thread    2) fSTEP     8 / 23 (thread    7) fSTEP    10 / 23 (thread    0) fSTEP    13 / 23 (thread    1) fSTEP    14 / 23 (thread    3) fSTEP    15 / 23 (thread    4) fSTEP    16 / 23 (thread    5) fSTEP    17 / 23 (thread    6) fSTEP    18 / 23 (thread    2) fSTEP    19 / 23 (thread    7) fSTEP    20 / 23 (thread    0) fSTEP    21 / 23 (thread    1) fSTEP    22 / 23 (thread    3) fSTEP    23 / 23 (thread    4) f
 done.
 
 Making a distance matrix from msa.. 
@@ -60,7 +60,7 @@ Constructing a UPGMA tree (efffree=1) ...
 done.
 
 Progressive alignment 2/2... 
-STEP     1 / 23 (thread    1) fSTEP     2 / 23 (thread    2) fSTEP     3 / 23 (thread    3) fSTEP     4 / 23 (thread    0) fSTEP     5 / 23 (thread    5) fSTEP     7 / 23 (thread    6) fSTEP     6 / 23 (thread    4) fSTEP    11 / 23 (thread    2) fSTEP     8 / 23 (thread    7) fSTEP     9 / 23 (thread    5) fSTEP    10 / 23 (thread    6) fSTEP    12 / 23 (thread    3) fSTEP    13 / 23 (thread    1) fSTEP    14 / 23 (thread    0) fSTEP    15 / 23 (thread    2) fSTEP    16 / 23 (thread    4) fSTEP    17 / 23 (thread    7) fSTEP    18 / 23 (thread    5) fSTEP    19 / 23 (thread    6) fSTEP    20 / 23 (thread    3) fSTEP    21 / 23 (thread    1) fSTEP    22 / 23 (thread    0) fSTEP    23 / 23 (thread    2) f
+STEP     1 / 23 (thread    0) fSTEP     4 / 23 (thread    3) fSTEP     5 / 23 (thread    4) fSTEP     7 / 23 (thread    6) fSTEP     2 / 23 (thread    1) fSTEP     3 / 23 (thread    2) fSTEP     8 / 23 (thread    7) fSTEP     6 / 23 (thread    5) fSTEP    11 / 23 (thread    4) fSTEP     9 / 23 (thread    0) fSTEP    10 / 23 (thread    3) fSTEP    12 / 23 (thread    6) fSTEP    13 / 23 (thread    2) fSTEP    14 / 23 (thread    1) fSTEP    15 / 23 (thread    4) fSTEP    16 / 23 (thread    7) fSTEP    17 / 23 (thread    5) fSTEP    18 / 23 (thread    0) fSTEP    19 / 23 (thread    3) fSTEP    20 / 23 (thread    6) fSTEP    21 / 23 (thread    2) fSTEP    22 / 23 (thread    1) fSTEP    23 / 23 (thread    4) f
 done.
 
 disttbfast (nuc) Version 7.526
