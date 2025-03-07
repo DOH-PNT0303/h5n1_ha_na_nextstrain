@@ -1,4 +1,7 @@
 BioSample,Accession,Collection_Date,Host,Submitters
+SAMN46706118,No sequence found,2025,Red-tailed-hawk,USDA-NVSL
+SAMN46923555,No sequence found,2025,Canada-goose,USDA-NVSL
+SAMN46923551,No sequence found,2025,Canada-goose,USDA-NVSL
 SAMN46200751,PV161627.1,2024-12-03,Gallus gallus,"Aufderhar,M., Franzen,K., Killian,M.L., Lantz,K., Stuber,T., Hicks,J., Norris,C., Lakin,S."
 SAMN46200751,PV161626.1,2024-12-03,Gallus gallus,"Aufderhar,M., Franzen,K., Killian,M.L., Lantz,K., Stuber,T., Hicks,J., Norris,C., Lakin,S."
 SAMN46200751,PV161625.1,2024-12-03,Gallus gallus,"Aufderhar,M., Franzen,K., Killian,M.L., Lantz,K., Stuber,T., Hicks,J., Norris,C., Lakin,S."
@@ -23,6 +26,8 @@ SAMN46069826,PV072333.1,2024-12-14,Gallus gallus,"Aufderhar,M., Franzen,K., Kill
 SAMN46069826,PV072332.1,2024-12-14,Gallus gallus,"Aufderhar,M., Franzen,K., Killian,M., Lantz,K., Stuber,T., Hicks,J., Norris,C., Lakin,S."
 SAMN46069826,PV072331.1,2024-12-14,Gallus gallus,"Aufderhar,M., Franzen,K., Killian,M., Lantz,K., Stuber,T., Hicks,J., Norris,C., Lakin,S."
 SAMN46069826,PV072330.1,2024-12-14,Gallus gallus,"Aufderhar,M., Franzen,K., Killian,M., Lantz,K., Stuber,T., Hicks,J., Norris,C., Lakin,S."
+SAMN45148617,No sequence found,2024,Chicken,USDA-NVSL
+SAMN46922971,No sequence found,2025,Cattle,USDA-NVSL
 SAMN46369450,PV162315.1,2025-01-06,Gallus gallus,"Aufderhar,M., Franzen,K., Killian,M.L., Lantz,K., Stuber,T., Hicks,J., Norris,C., Lakin,S."
 SAMN46369450,PV162314.1,2025-01-06,Gallus gallus,"Aufderhar,M., Franzen,K., Killian,M.L., Lantz,K., Stuber,T., Hicks,J., Norris,C., Lakin,S."
 SAMN46369450,PV162313.1,2025-01-06,Gallus gallus,"Aufderhar,M., Franzen,K., Killian,M.L., Lantz,K., Stuber,T., Hicks,J., Norris,C., Lakin,S."
@@ -71,6 +76,11 @@ SAMN44493028,PQ664433.1,2024-10-21,Gallus gallus,"Aufderhar,M., Franzen,K., Kill
 SAMN44493028,PQ664432.1,2024-10-21,Gallus gallus,"Aufderhar,M., Franzen,K., Killian,M.L., Lantz,K., Stuber,T., Hicks,J., Norris,C., Lakin,S."
 SAMN44493028,PQ664431.1,2024-10-21,Gallus gallus,"Aufderhar,M., Franzen,K., Killian,M.L., Lantz,K., Stuber,T., Hicks,J., Norris,C., Lakin,S."
 SAMN44493028,PQ664430.1,2024-10-21,Gallus gallus,"Aufderhar,M., Franzen,K., Killian,M.L., Lantz,K., Stuber,T., Hicks,J., Norris,C., Lakin,S."
+SAMN47131055,No sequence found,2025,Green-winged-teal,USDA-NVSL
+SAMN46923650,No sequence found,2025,Red-tailed-hawk,USDA-NVSL
+SAMN46923519,No sequence found,2025,American-crow,USDA-NVSL
+SAMN45148607,No sequence found,2024,Chicken,USDA-NVSL
+SAMN47130973,No sequence found,2025,Duck,USDA-NVSL
 SAMN45128756,PQ798053.1,2024-11-05,Gallus gallus,"Aufderhar,M., Franzen,K., Killian,M.L., Lantz,K., Stuber,T., Hicks,J., Norris,C., Lakin,S."
 SAMN45128756,PQ798052.1,2024-11-05,Gallus gallus,"Aufderhar,M., Franzen,K., Killian,M.L., Lantz,K., Stuber,T., Hicks,J., Norris,C., Lakin,S."
 SAMN45128756,PQ798051.1,2024-11-05,Gallus gallus,"Aufderhar,M., Franzen,K., Killian,M.L., Lantz,K., Stuber,T., Hicks,J., Norris,C., Lakin,S."
@@ -87,6 +97,8 @@ SAMN45128755,PQ798041.1,2024-11-05,Gallus gallus,"Aufderhar,M., Franzen,K., Kill
 SAMN45128755,PQ798040.1,2024-11-05,Gallus gallus,"Aufderhar,M., Franzen,K., Killian,M.L., Lantz,K., Stuber,T., Hicks,J., Norris,C., Lakin,S."
 SAMN45128755,PQ798039.1,2024-11-05,Gallus gallus,"Aufderhar,M., Franzen,K., Killian,M.L., Lantz,K., Stuber,T., Hicks,J., Norris,C., Lakin,S."
 SAMN45128755,PQ798038.1,2024-11-05,Gallus gallus,"Aufderhar,M., Franzen,K., Killian,M.L., Lantz,K., Stuber,T., Hicks,J., Norris,C., Lakin,S."
+SAMN46706145,No sequence found,2025,Bald-eagle,USDA-NVSL
+SAMN47131032,No sequence found,2025,Great-horned-owl,USDA-NVSL
 SAMN45952789,PV060501.1,2024-12-04,Gallus gallus,"Hicks,J.A., Stuber,T., Norris,C., Lakin,S., Killian,M.L., Franzen,K., Aufderhar,M."
 SAMN45952789,PV060500.1,2024-12-04,Gallus gallus,"Hicks,J.A., Stuber,T., Norris,C., Lakin,S., Killian,M.L., Franzen,K., Aufderhar,M."
 SAMN45952789,PV060499.1,2024-12-04,Gallus gallus,"Hicks,J.A., Stuber,T., Norris,C., Lakin,S., Killian,M.L., Franzen,K., Aufderhar,M."

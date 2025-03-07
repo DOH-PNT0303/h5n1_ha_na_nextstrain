@@ -49,18 +49,11 @@ for _, row in df.iterrows():
 # Ensure the results directory exists
 os.makedirs(os.path.join(script_dir, "../results/"), exist_ok=True)
 
-# Filter out rows where the 'Accession' is "No sequence found"
-df_results = pd.DataFrame(results, columns=["BioSample", "Accession", "Collection_Date", "Host", "Submitters"])
-df_results = df_results[df_results['Accession'] != "No sequence found"]
-
-# Convert 'Collection_Date' to datetime, ensuring it is in the correct format (YYYY-MM-DD)
-df_results['Collection_Date'] = pd.to_datetime(df_results['Collection_Date'], errors='coerce').dt.strftime('%Y-%m-%d')
-
-# Drop rows with invalid dates (which will be NaT after conversion)
-df_results = df_results.dropna(subset=['Collection_Date'])
-
 # Write results to CSV file
-df_results.to_csv(output_csv, index=False)
+with open(output_csv, mode='w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["BioSample", "Accession", "Collection_Date", "Host", "Submitters"])
+    writer.writerows(results)
 
 print(f"Results have been written to {output_csv}")
 
@@ -83,12 +76,6 @@ new_metadata = pd.read_csv(output_csv)  # The file we've just created
 # Strip any leading/trailing whitespace from column names
 existing_metadata.columns = existing_metadata.columns.str.strip()
 new_metadata.columns = new_metadata.columns.str.strip()
-
-# Ensure 'Collection_Date' in existing metadata is in datetime format (YYYY-MM-DD) before merging
-existing_metadata['Collection_Date'] = pd.to_datetime(existing_metadata['Collection_Date'], errors='coerce').dt.strftime('%Y-%m-%d')
-
-# Drop rows with invalid dates in the existing metadata (which will be NaT after conversion)
-existing_metadata = existing_metadata.dropna(subset=['Collection_Date'])
 
 # Perform a left join to merge the tables on 'Accession'
 merged_df = pd.merge(existing_metadata, new_metadata, how="left", on="Accession")
