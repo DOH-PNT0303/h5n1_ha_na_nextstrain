@@ -20,7 +20,7 @@
 
 # Segment order determines how the full genome annotation (entropy panel) is set up
 # using the canonical ordering <https://viralzone.expasy.org/6>
-SEGMENTS = ["ha", "na"]
+SEGMENTS = ["ha","na"]
 assert len(set(SEGMENTS))==len(SEGMENTS), "Duplicate segment detected - check 'SEGMENTS' list"
 
 BUILD_NAME = ['h5n1-oregon-washington']
