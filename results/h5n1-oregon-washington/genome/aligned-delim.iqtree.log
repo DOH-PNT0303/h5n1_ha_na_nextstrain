@@ -4,119 +4,149 @@ Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
 
 Host:    DOHLTTUM2107624 (AVX512, FMA3, 15 GB RAM)
 Command: iqtree2 --threads-max 8 -s results/h5n1-oregon-washington/genome/aligned-delim.fasta -m GTR --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo
-Seed:    314522 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Fri Mar  7 11:53:47 2025
+Seed:    125963 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Mar  7 15:45:35 2025
 Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
 
 Reading alignment file results/h5n1-oregon-washington/genome/aligned-delim.fasta ... Fasta format detected
-Reading fasta file: done in 0.00343571 secs using 35.39% CPU
+Reading fasta file: done in 0.00445033 secs
 Alignment most likely contains DNA/RNA sequences
-WARNING: 12 sites contain only gaps or ambiguous characters.
-Alignment has 31 sequences with 3218 columns, 108 distinct patterns
-238 parsimony-informative, 22 singleton sites, 2958 constant sites
+WARNING: 9 sites contain only gaps or ambiguous characters.
+Alignment has 49 sequences with 1458 columns, 101 distinct patterns
+222 parsimony-informative, 20 singleton sites, 1216 constant sites
                                                                                          Gap/Ambiguity  Composition  p-value
-Analyzing sequences: done in 4.3506e-05 secs using 85.05% CPU
-   1  A_DELIM-0x2f_Guineafowl_DELIM-0x2f_WA_DELIM-0x2f_24-030328-001-original_DELIM-0x2f_2024    3.23%    passed     99.76%
-   2  A_DELIM-0x2f_Guineafowl_DELIM-0x2f_WA_DELIM-0x2f_24-030328-002-original_DELIM-0x2f_2024    3.23%    passed     99.76%
-   3  A_DELIM-0x2f_chicken_DELIM-0x2f_Washington_DELIM-0x2f_W242850087-1_DELIM-0x2f_2024         3.23%    passed     99.99%
-   4  A_DELIM-0x2f_chicken_DELIM-0x2f_Washington_DELIM-0x2f_W242850087-2_DELIM-0x2f_2024         3.23%    passed     99.99%
-   5  A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-030039-001_DELIM-0x2f_2024                3.23%    passed     99.99%
-   6  A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-030039-002_DELIM-0x2f_2024                3.23%    passed     99.99%
-   7  A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-030904-001-original_DELIM-0x2f_2024       3.23%    passed     99.48%
-   8  A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-030904-002-original_DELIM-0x2f_2024       3.23%    passed     99.48%
-   9  A_DELIM-0x2f_Duck_DELIM-0x2f_OR_DELIM-0x2f_24-031478-003-original_DELIM-0x2f_2024          3.23%    passed     99.87%
-  10  A_DELIM-0x2f_Peafowl_DELIM-0x2f_OR_DELIM-0x2f_24-031478-001-original_DELIM-0x2f_2024       3.23%    passed     99.87%
-  11  A_DELIM-0x2f_pig_DELIM-0x2f_OR_DELIM-0x2f_24-031264-004-combined_DELIM-0x2f_2024           3.23%    passed     99.90%
-  12  A_DELIM-0x2f_goose_DELIM-0x2f_OR_DELIM-0x2f_24-031478-002-original_DELIM-0x2f_2024         3.23%    passed     99.80%
-  13  A_DELIM-0x2f_Duck_DELIM-0x2f_OR_DELIM-0x2f_24-037944-001-original_DELIM-0x2f_2024          3.23%    passed     99.99%
-  14  A_DELIM-0x2f_goose_DELIM-0x2f_WA_DELIM-0x2f_24-033829-001-original_DELIM-0x2f_2024         3.23%    passed     99.97%
-  15  A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-034062-001-original_DELIM-0x2f_2024       3.23%    passed     99.76%
-  16  A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-035148-001-original_DELIM-0x2f_2024       3.23%    passed     85.04%
-  17  A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-035148-002-original_DELIM-0x2f_2024       3.23%    passed     85.04%
-  18  A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-031352-001-original_DELIM-0x2f_2024       3.23%    passed     99.54%
-  19  A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-031352-002-original_DELIM-0x2f_2024       3.23%    passed     99.72%
-  20  A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-031352-003-original_DELIM-0x2f_2024       3.23%    passed     99.72%
-  21  A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-037945-001-original_DELIM-0x2f_2024       3.23%    passed     99.99%
-  22  A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-037945-002-original_DELIM-0x2f_2024       3.23%    passed     99.99%
-  23  A_DELIM-0x2f_Washington_DELIM-0x2f_239_DELIM-0x2f_2024                                     2.45%    passed     99.70%
-  24  A_DELIM-0x2f_Washington_DELIM-0x2f_254_DELIM-0x2f_2024                                     4.10%    passed     98.91%
-  25  A_DELIM-0x2f_Washington_DELIM-0x2f_251_DELIM-0x2f_2024                                     2.39%    passed     99.95%
-  26  A_DELIM-0x2f_Washington_DELIM-0x2f_252_DELIM-0x2f_2024                                     3.23%    passed    100.00%
-  27  A_DELIM-0x2f_Washington_DELIM-0x2f_253_DELIM-0x2f_2024                                     2.80%    passed    100.00%
-  28  A_DELIM-0x2f_Washington_DELIM-0x2f_240_DELIM-0x2f_2024                                     2.49%    passed     99.78%
-  29  A_DELIM-0x2f_Washington_DELIM-0x2f_255_DELIM-0x2f_2024                                     1.06%    passed     99.18%
-  30  A_DELIM-0x2f_Washington_DELIM-0x2f_UW32495_DELIM-0x2f_2024                                 0.90%    passed     99.73%
-  31  A_DELIM-0x2f_junglecrow_DELIM-0x2f_Iwate_DELIM-0x2f_0304I001_DELIM-0x2f_2022               0.37%    passed     85.28%
-****  TOTAL                                                                                      2.93%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Analyzing sequences: done in 4.3799e-05 secs using 86.76% CPU
+   1  A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-035148-001-original_DELIM-0x2f_2024       3.29%    passed     48.64%
+   2  A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-035148-002-original_DELIM-0x2f_2024       3.29%    passed     48.64%
+   3  A_DELIM-0x2f_junglecrow_DELIM-0x2f_Iwate_DELIM-0x2f_0304I001_DELIM-0x2f_2022               0.62%    passed     59.27%
+   4  A_DELIM-0x2f_Guineafowl_DELIM-0x2f_WA_DELIM-0x2f_24-030328-001-original_DELIM-0x2f_2024    3.29%    passed     99.59%
+   5  A_DELIM-0x2f_Guineafowl_DELIM-0x2f_WA_DELIM-0x2f_24-030328-002-original_DELIM-0x2f_2024    3.29%    passed     99.59%
+   6  A_DELIM-0x2f_chicken_DELIM-0x2f_Washington_DELIM-0x2f_W242850087-1_DELIM-0x2f_2024         3.29%    passed     99.99%
+   7  A_DELIM-0x2f_chicken_DELIM-0x2f_Washington_DELIM-0x2f_W242850087-2_DELIM-0x2f_2024         3.29%    passed     99.99%
+   8  A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-030039-001_DELIM-0x2f_2024                3.29%    passed     99.99%
+   9  A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-030039-002_DELIM-0x2f_2024                3.29%    passed     99.99%
+  10  A_DELIM-0x2f_chicken_DELIM-0x2f_MT_DELIM-0x2f_24-032160-003-original_DELIM-0x2f_2024       3.29%    passed     99.95%
+  11  A_DELIM-0x2f_chicken_DELIM-0x2f_MT_DELIM-0x2f_24-032160-004-original_DELIM-0x2f_2024       3.29%    passed     99.95%
+  12  A_DELIM-0x2f_chicken_DELIM-0x2f_MT_DELIM-0x2f_24-032160-002-original_DELIM-0x2f_2024       3.29%    passed     99.95%
+  13  A_DELIM-0x2f_chicken_DELIM-0x2f_MT_DELIM-0x2f_24-032160-001-original_DELIM-0x2f_2024       3.29%    passed     99.95%
+  14  A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-032809-002-original_DELIM-0x2f_2024       3.29%    passed     99.99%
+  15  A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-032809-001-original_DELIM-0x2f_2024       3.29%    passed     99.99%
+  16  A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-032191-001-original_DELIM-0x2f_2024       3.29%    passed     99.95%
+  17  A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-032191-002-original_DELIM-0x2f_2024       3.29%    passed     99.81%
+  18  A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-032191-004-original_DELIM-0x2f_2024       3.29%    passed     99.81%
+  19  A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-032191-003-original_DELIM-0x2f_2024       3.29%    passed     99.81%
+  20  A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-037945-001-original_DELIM-0x2f_2024       3.29%    passed     99.96%
+  21  A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-037945-002-original_DELIM-0x2f_2024       3.29%    passed     99.96%
+  22  A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-031352-001-original_DELIM-0x2f_2024       3.29%    passed     99.96%
+  23  A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-031352-002-original_DELIM-0x2f_2024       3.29%    passed     99.96%
+  24  A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-031352-003-original_DELIM-0x2f_2024       3.29%    passed     99.96%
+  25  A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-034062-001-original_DELIM-0x2f_2024       3.29%    passed     99.90%
+  26  A_DELIM-0x2f_chicken_DELIM-0x2f_SD_DELIM-0x2f_24-037531-001-original_DELIM-0x2f_2024       3.29%    passed     99.95%
+  27  A_DELIM-0x2f_chicken_DELIM-0x2f_SD_DELIM-0x2f_25-000692-001-original_DELIM-0x2f_2025       3.29%    passed     99.90%
+  28  A_DELIM-0x2f_Duck_DELIM-0x2f_OR_DELIM-0x2f_24-031478-003-original_DELIM-0x2f_2024          3.29%    passed     99.69%
+  29  A_DELIM-0x2f_Peafowl_DELIM-0x2f_OR_DELIM-0x2f_24-031478-001-original_DELIM-0x2f_2024       3.29%    passed     99.69%
+  30  A_DELIM-0x2f_pig_DELIM-0x2f_OR_DELIM-0x2f_24-031264-004-combined_DELIM-0x2f_2024           3.29%    passed     99.69%
+  31  A_DELIM-0x2f_goose_DELIM-0x2f_OR_DELIM-0x2f_24-031478-002-original_DELIM-0x2f_2024         3.29%    passed     99.69%
+  32  A_DELIM-0x2f_Tiger_DELIM-0x2f_ID_DELIM-0x2f_24-035868-001-original_DELIM-0x2f_2024         3.29%    passed     99.90%
+  33  A_DELIM-0x2f_goose_DELIM-0x2f_WA_DELIM-0x2f_24-033829-001-original_DELIM-0x2f_2024         3.29%    passed     99.91%
+  34  A_DELIM-0x2f_chicken_DELIM-0x2f_CO_DELIM-0x2f_24-036613-001-original_DELIM-0x2f_2024       3.29%    passed     99.71%
+  35  A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-030904-001-original_DELIM-0x2f_2024       3.29%    passed     99.39%
+  36  A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-030904-002-original_DELIM-0x2f_2024       3.29%    passed     99.39%
+  37  A_DELIM-0x2f_chicken_DELIM-0x2f_CA_DELIM-0x2f_24-038654-003-original_DELIM-0x2f_2024       3.29%    passed     99.84%
+  38  A_DELIM-0x2f_Duck_DELIM-0x2f_OR_DELIM-0x2f_24-037944-001-original_DELIM-0x2f_2024          3.29%    passed     99.98%
+  39  A_DELIM-0x2f_chicken_DELIM-0x2f_MO_DELIM-0x2f_24-037561-001-original_DELIM-0x2f_2024       3.29%    passed     99.72%
+  40  A_DELIM-0x2f_Guineafowl_DELIM-0x2f_AL_DELIM-0x2f_24-037980-001-original_DELIM-0x2f_2024    3.29%    passed     99.72%
+  41  A_DELIM-0x2f_Turkey_DELIM-0x2f_SD_DELIM-0x2f_24-037530-001-original_DELIM-0x2f_2024        3.29%    passed     99.83%
+  42  A_DELIM-0x2f_Washington_DELIM-0x2f_239_DELIM-0x2f_2024                                     3.57%    passed     99.96%
+  43  A_DELIM-0x2f_Washington_DELIM-0x2f_254_DELIM-0x2f_2024                                     7.20%    passed     96.78%
+  44  A_DELIM-0x2f_Washington_DELIM-0x2f_240_DELIM-0x2f_2024                                     3.77%    passed     99.65%
+  45  A_DELIM-0x2f_Washington_DELIM-0x2f_255_DELIM-0x2f_2024                                     1.71%    passed     99.26%
+  46  A_DELIM-0x2f_Washington_DELIM-0x2f_UW32495_DELIM-0x2f_2024                                 1.78%    passed     99.44%
+  47  A_DELIM-0x2f_Washington_DELIM-0x2f_251_DELIM-0x2f_2024                                     3.43%    passed     99.19%
+  48  A_DELIM-0x2f_Washington_DELIM-0x2f_253_DELIM-0x2f_2024                                     4.32%    passed     99.97%
+  49  A_DELIM-0x2f_Washington_DELIM-0x2f_252_DELIM-0x2f_2024                                     5.28%    passed     99.91%
+****  TOTAL                                                                                      3.33%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-035148-002-original_DELIM-0x2f_2024 is identical to A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-035148-001-original_DELIM-0x2f_2024 but kept for subsequent analysis
 NOTE: A_DELIM-0x2f_Guineafowl_DELIM-0x2f_WA_DELIM-0x2f_24-030328-002-original_DELIM-0x2f_2024 is identical to A_DELIM-0x2f_Guineafowl_DELIM-0x2f_WA_DELIM-0x2f_24-030328-001-original_DELIM-0x2f_2024 but kept for subsequent analysis
 NOTE: A_DELIM-0x2f_chicken_DELIM-0x2f_Washington_DELIM-0x2f_W242850087-2_DELIM-0x2f_2024 is identical to A_DELIM-0x2f_chicken_DELIM-0x2f_Washington_DELIM-0x2f_W242850087-1_DELIM-0x2f_2024 but kept for subsequent analysis
-NOTE: A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-030904-002-original_DELIM-0x2f_2024 is identical to A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-030904-001-original_DELIM-0x2f_2024 but kept for subsequent analysis
-NOTE: A_DELIM-0x2f_Peafowl_DELIM-0x2f_OR_DELIM-0x2f_24-031478-001-original_DELIM-0x2f_2024 is identical to A_DELIM-0x2f_Duck_DELIM-0x2f_OR_DELIM-0x2f_24-031478-003-original_DELIM-0x2f_2024 but kept for subsequent analysis
-NOTE: A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-035148-002-original_DELIM-0x2f_2024 is identical to A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-035148-001-original_DELIM-0x2f_2024 but kept for subsequent analysis
-NOTE: A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-031352-003-original_DELIM-0x2f_2024 is identical to A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-031352-002-original_DELIM-0x2f_2024 but kept for subsequent analysis
+NOTE: A_DELIM-0x2f_chicken_DELIM-0x2f_MT_DELIM-0x2f_24-032160-004-original_DELIM-0x2f_2024 is identical to A_DELIM-0x2f_chicken_DELIM-0x2f_MT_DELIM-0x2f_24-032160-003-original_DELIM-0x2f_2024 but kept for subsequent analysis
+NOTE: A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-032809-001-original_DELIM-0x2f_2024 is identical to A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-032809-002-original_DELIM-0x2f_2024 but kept for subsequent analysis
+NOTE: A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-032191-004-original_DELIM-0x2f_2024 is identical to A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-032191-002-original_DELIM-0x2f_2024 but kept for subsequent analysis
 NOTE: A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-037945-002-original_DELIM-0x2f_2024 is identical to A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-037945-001-original_DELIM-0x2f_2024 but kept for subsequent analysis
-NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: A_DELIM-0x2f_Peafowl_DELIM-0x2f_OR_DELIM-0x2f_24-031478-001-original_DELIM-0x2f_2024 is identical to A_DELIM-0x2f_Duck_DELIM-0x2f_OR_DELIM-0x2f_24-031478-003-original_DELIM-0x2f_2024 but kept for subsequent analysis
+NOTE: A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-030904-002-original_DELIM-0x2f_2024 is identical to A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-030904-001-original_DELIM-0x2f_2024 but kept for subsequent analysis
+NOTE: A_DELIM-0x2f_Guineafowl_DELIM-0x2f_AL_DELIM-0x2f_24-037980-001-original_DELIM-0x2f_2024 is identical to A_DELIM-0x2f_chicken_DELIM-0x2f_MO_DELIM-0x2f_24-037561-001-original_DELIM-0x2f_2024 but kept for subsequent analysis
+NOTE: 10 identical sequences (see below) will be ignored for subsequent analysis
 NOTE: A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-030039-001_DELIM-0x2f_2024 (identical to A_DELIM-0x2f_chicken_DELIM-0x2f_Washington_DELIM-0x2f_W242850087-1_DELIM-0x2f_2024) is ignored but added at the end
 NOTE: A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-030039-002_DELIM-0x2f_2024 (identical to A_DELIM-0x2f_chicken_DELIM-0x2f_Washington_DELIM-0x2f_W242850087-1_DELIM-0x2f_2024) is ignored but added at the end
+NOTE: A_DELIM-0x2f_chicken_DELIM-0x2f_MT_DELIM-0x2f_24-032160-002-original_DELIM-0x2f_2024 (identical to A_DELIM-0x2f_chicken_DELIM-0x2f_MT_DELIM-0x2f_24-032160-003-original_DELIM-0x2f_2024) is ignored but added at the end
+NOTE: A_DELIM-0x2f_chicken_DELIM-0x2f_MT_DELIM-0x2f_24-032160-001-original_DELIM-0x2f_2024 (identical to A_DELIM-0x2f_chicken_DELIM-0x2f_MT_DELIM-0x2f_24-032160-003-original_DELIM-0x2f_2024) is ignored but added at the end
+NOTE: A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-032191-003-original_DELIM-0x2f_2024 (identical to A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-032191-002-original_DELIM-0x2f_2024) is ignored but added at the end
+NOTE: A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-031352-001-original_DELIM-0x2f_2024 (identical to A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-037945-001-original_DELIM-0x2f_2024) is ignored but added at the end
+NOTE: A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-031352-002-original_DELIM-0x2f_2024 (identical to A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-037945-001-original_DELIM-0x2f_2024) is ignored but added at the end
+NOTE: A_DELIM-0x2f_chicken_DELIM-0x2f_WA_DELIM-0x2f_24-031352-003-original_DELIM-0x2f_2024 (identical to A_DELIM-0x2f_chicken_DELIM-0x2f_OR_DELIM-0x2f_24-037945-001-original_DELIM-0x2f_2024) is ignored but added at the end
+NOTE: A_DELIM-0x2f_pig_DELIM-0x2f_OR_DELIM-0x2f_24-031264-004-combined_DELIM-0x2f_2024 (identical to A_DELIM-0x2f_Duck_DELIM-0x2f_OR_DELIM-0x2f_24-031478-003-original_DELIM-0x2f_2024) is ignored but added at the end
+NOTE: A_DELIM-0x2f_goose_DELIM-0x2f_OR_DELIM-0x2f_24-031478-002-original_DELIM-0x2f_2024 (identical to A_DELIM-0x2f_Duck_DELIM-0x2f_OR_DELIM-0x2f_24-031478-003-original_DELIM-0x2f_2024) is ignored but added at the end
 Alignment was printed to results/h5n1-oregon-washington/genome/aligned-delim.fasta.uniqueseq.phy
 
 For your convenience alignment with unique sequences printed to results/h5n1-oregon-washington/genome/aligned-delim.fasta.uniqueseq.phy
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.010 seconds
 
 NOTE: 0 MB RAM (0 GB) is required!
 Measuring multi-threading efficiency up to 8 CPU cores
 Increase to 10 rounds for branch lengths
-8296 trees examined
-Threads: 1 / Time: 8.001 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -8515
-Threads: 2 / Time: 7.911 sec / Speedup: 1.011 / Efficiency: 51% / LogL: -8515
-Threads: 3 / Time: 11.888 sec / Speedup: 0.673 / Efficiency: 22% / LogL: -8515
+4216 trees examined
+Threads: 1 / Time: 8.002 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -5258
+Threads: 2 / Time: 7.885 sec / Speedup: 1.015 / Efficiency: 51% / LogL: -5258
+Threads: 3 / Time: 9.905 sec / Speedup: 0.808 / Efficiency: 27% / LogL: -5258
 BEST NUMBER OF THREADS: 1
 
 Estimate model parameters (epsilon = 0.500)
-1. Initial log-likelihood: -5971.958
-2. Current log-likelihood: -5853.751
-3. Current log-likelihood: -5830.768
-Optimal log-likelihood: -5830.729
-Rate parameters:  A-C: 0.84860  A-G: 6.35779  A-T: 0.93329  C-G: 0.52575  C-T: 10.39985  G-T: 1.00000
-Base frequencies:  A: 0.324  C: 0.185  G: 0.241  T: 0.250
-Parameters optimization took 3 rounds (0.021 sec)
+1. Initial log-likelihood: -3249.686
+2. Current log-likelihood: -3132.807
+3. Current log-likelihood: -3123.998
+Optimal log-likelihood: -3123.989
+Rate parameters:  A-C: 0.98093  A-G: 6.58557  A-T: 0.86831  C-G: 0.46206  C-T: 9.86044  G-T: 1.00000
+Base frequencies:  A: 0.303  C: 0.179  G: 0.250  T: 0.268
+Parameters optimization took 3 rounds (0.018 sec)
 Wrote distance file to... 
 Computing ML distances based on estimated model parameters...
-Calculating distance matrix: done in 0.00130887 secs using 96.57% CPU
-Computing ML distances took 0.003038 sec (of wall-clock time) 0.001368 sec (of CPU time)
-Setting up auxiliary I and S matrices: done in 0.000100401 secs using 95.62% CPU
-Computing RapidNJ tree took 0.001499 sec (of wall-clock time) 0.000465 sec (of CPU time)
-Log-likelihood of RapidNJ tree: -5835.971
+Calculating distance matrix: done in 0.00201678 secs using 96.64% CPU
+Computing ML distances took 0.003142 sec (of wall-clock time) 0.002007 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000180391 secs using 95.9% CPU
+Computing RapidNJ tree took 0.001653 sec (of wall-clock time) 0.000751 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -3124.048
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
 
 Do NNI search on 2 best initial trees
-BETTER TREE FOUND at iteration 1: -5830.729
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -3119.550
 Finish initializing candidate tree set (4)
-Current best tree score: -5830.729 / CPU time: 0.018
+Current best tree score: -3119.550 / CPU time: 0.022
 Number of iterations: 2
-TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:27s
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:25s
 
 --------------------------------------------------------------------
 |                    FINALIZING TREE SEARCH                        |
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.050)
-1. Initial log-likelihood: -5830.729
-Optimal log-likelihood: -5830.728
-Rate parameters:  A-C: 0.84446  A-G: 6.35809  A-T: 0.92769  C-G: 0.52971  C-T: 10.40040  G-T: 1.00000
-Base frequencies:  A: 0.324  C: 0.185  G: 0.241  T: 0.250
-Parameters optimization took 1 rounds (0.004 sec)
-BEST SCORE FOUND : -5830.728
-Total tree length: 0.090
+1. Initial log-likelihood: -3119.550
+Optimal log-likelihood: -3119.550
+Rate parameters:  A-C: 0.98140  A-G: 6.58712  A-T: 0.86491  C-G: 0.46025  C-T: 9.85618  G-T: 1.00000
+Base frequencies:  A: 0.303  C: 0.179  G: 0.250  T: 0.268
+Parameters optimization took 1 rounds (0.006 sec)
+BEST SCORE FOUND : -3119.550
+Total tree length: 0.201
 
 Total number of iterations: 2
-CPU time used for tree search: 0.029 sec (0h:0m:0s)
-Wall-clock time used for tree search: 0.022 sec (0h:0m:0s)
-Total CPU time used: 57.962 sec (0h:0m:57s)
-Total wall-clock time used: 27.970 sec (0h:0m:27s)
+CPU time used for tree search: 0.030 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.027 sec (0h:0m:0s)
+Total CPU time used: 52.344 sec (0h:0m:52s)
+Total wall-clock time used: 26.007 sec (0h:0m:26s)
 
 Analysis results written to: 
   IQ-TREE report:                results/h5n1-oregon-washington/genome/aligned-delim.fasta.iqtree
@@ -124,4 +154,4 @@ Analysis results written to:
   Likelihood distances:          results/h5n1-oregon-washington/genome/aligned-delim.fasta.mldist
   Screen log file:               results/h5n1-oregon-washington/genome/aligned-delim.fasta.log
 
-Date and Time: Fri Mar  7 11:54:15 2025
+Date and Time: Fri Mar  7 15:46:01 2025

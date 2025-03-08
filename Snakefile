@@ -20,7 +20,7 @@
 
 # Segment order determines how the full genome annotation (entropy panel) is set up
 # using the canonical ordering <https://viralzone.expasy.org/6>
-SEGMENTS = ["ha","na"]
+SEGMENTS = ["ha", "na"]
 assert len(set(SEGMENTS))==len(SEGMENTS), "Duplicate segment detected - check 'SEGMENTS' list"
 
 BUILD_NAME = ['h5n1-oregon-washington']
@@ -203,11 +203,12 @@ rule refine:
             --output-tree {output.tree} \
             --output-node-data {output.node_data} \
             --timetree \
+            --keep-polytomies \
             --coalescent {params.coalescent} \
             --root {params.root_strain} \
             --date-confidence \
             --date-inference {params.date_inference} \
-            {params.clock_rate} \
+            {params.clock_rate} 
         """
 
 rule ancestral:

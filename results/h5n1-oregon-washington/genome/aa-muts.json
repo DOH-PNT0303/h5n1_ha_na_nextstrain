@@ -1,21 +1,14 @@
 {
   "annotations": {
-    "HA": {
-      "end": 1728,
-      "seqid": "results/h5n1-oregon-washington/genome/reference.gb",
-      "start": 22,
-      "strand": "+",
-      "type": "CDS"
-    },
     "NA": {
-      "end": 3190,
+      "end": 1430,
       "seqid": "results/h5n1-oregon-washington/genome/reference.gb",
-      "start": 1781,
+      "start": 21,
       "strand": "+",
       "type": "CDS"
     },
     "nuc": {
-      "end": 3218,
+      "end": 1458,
       "seqid": "results/h5n1-oregon-washington/genome/reference.gb",
       "start": 1,
       "strand": "+",
@@ -29,39 +22,52 @@
   "nodes": {
     "A/Duck/OR/24-031478-003-original/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "A/Duck/OR/24-037944-001-original/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": [
           "K469N"
         ]
       }
     },
+    "A/Guineafowl/AL/24-037980-001-original/2024": {
+      "aa_muts": {
+        "NA": []
+      }
+    },
     "A/Guineafowl/WA/24-030328-001-original/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "A/Guineafowl/WA/24-030328-002-original/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "A/Peafowl/OR/24-031478-001-original/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
+      }
+    },
+    "A/Tiger/ID/24-035868-001-original/2024": {
+      "aa_muts": {
+        "NA": [
+          "S52N"
+        ]
+      }
+    },
+    "A/Turkey/SD/24-037530-001-original/2024": {
+      "aa_muts": {
+        "NA": [
+          "K254R"
+        ]
       }
     },
     "A/Washington/239/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": [
           "M1X",
           "N2X",
@@ -71,7 +77,6 @@
     },
     "A/Washington/240/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": [
           "M1X",
           "N2X",
@@ -83,7 +88,6 @@
     },
     "A/Washington/251/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": [
           "M1X",
           "N2X"
@@ -92,7 +96,6 @@
     },
     "A/Washington/252/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": [
           "M1X",
           "N2X",
@@ -110,7 +113,6 @@
     },
     "A/Washington/253/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": [
           "M1X",
           "N2X",
@@ -123,7 +125,6 @@
     },
     "A/Washington/254/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": [
           "M1X",
           "N2X",
@@ -150,180 +151,187 @@
     },
     "A/Washington/255/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "A/Washington/UW32495/2024": {
       "aa_muts": {
-        "HA": [],
+        "NA": []
+      }
+    },
+    "A/chicken/CA/24-038654-003-original/2024": {
+      "aa_muts": {
+        "NA": [
+          "L91I"
+        ]
+      }
+    },
+    "A/chicken/CO/24-036613-001-original/2024": {
+      "aa_muts": {
+        "NA": [
+          "N4D"
+        ]
+      }
+    },
+    "A/chicken/MO/24-037561-001-original/2024": {
+      "aa_muts": {
+        "NA": []
+      }
+    },
+    "A/chicken/MT/24-032160-001-original/2024": {
+      "aa_muts": {
+        "NA": []
+      }
+    },
+    "A/chicken/MT/24-032160-002-original/2024": {
+      "aa_muts": {
+        "NA": []
+      }
+    },
+    "A/chicken/MT/24-032160-003-original/2024": {
+      "aa_muts": {
+        "NA": []
+      }
+    },
+    "A/chicken/MT/24-032160-004-original/2024": {
+      "aa_muts": {
         "NA": []
       }
     },
     "A/chicken/OR/24-030904-001-original/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "A/chicken/OR/24-030904-002-original/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "A/chicken/OR/24-035148-001-original/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "A/chicken/OR/24-035148-002-original/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "A/chicken/OR/24-037945-001-original/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "A/chicken/OR/24-037945-002-original/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
+      }
+    },
+    "A/chicken/SD/24-037531-001-original/2024": {
+      "aa_muts": {
+        "NA": []
+      }
+    },
+    "A/chicken/SD/25-000692-001-original/2025": {
+      "aa_muts": {
+        "NA": [
+          "G331R"
+        ]
       }
     },
     "A/chicken/WA/24-030039-001/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "A/chicken/WA/24-030039-002/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "A/chicken/WA/24-031352-001-original/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "A/chicken/WA/24-031352-002-original/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "A/chicken/WA/24-031352-003-original/2024": {
       "aa_muts": {
-        "HA": [],
+        "NA": []
+      }
+    },
+    "A/chicken/WA/24-032191-001-original/2024": {
+      "aa_muts": {
+        "NA": []
+      }
+    },
+    "A/chicken/WA/24-032191-002-original/2024": {
+      "aa_muts": {
+        "NA": []
+      }
+    },
+    "A/chicken/WA/24-032191-003-original/2024": {
+      "aa_muts": {
+        "NA": []
+      }
+    },
+    "A/chicken/WA/24-032191-004-original/2024": {
+      "aa_muts": {
+        "NA": []
+      }
+    },
+    "A/chicken/WA/24-032809-001-original/2024": {
+      "aa_muts": {
+        "NA": []
+      }
+    },
+    "A/chicken/WA/24-032809-002-original/2024": {
+      "aa_muts": {
         "NA": []
       }
     },
     "A/chicken/WA/24-034062-001-original/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "A/chicken/Washington/W242850087-1/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "A/chicken/Washington/W242850087-2/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "A/goose/OR/24-031478-002-original/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "A/goose/WA/24-033829-001-original/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "A/junglecrow/Iwate/0304I001/2022": {
       "aa_muts": {
-        "HA": [
-          "D492N"
-        ],
         "NA": []
       }
     },
     "A/pig/OR/24-031264-004-combined/2024": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "NODE_0000000": {
       "aa_muts": {
-        "HA": [
-          "K3N",
-          "V11I",
-          "R69K",
-          "N88R",
-          "K98R",
-          "S100N",
-          "D110S",
-          "F111L",
-          "T124I",
-          "Q131L",
-          "S139P",
-          "D142E",
-          "A143T",
-          "S145L",
-          "S149A",
-          "H154Q",
-          "R156A",
-          "S157P",
-          "S171D",
-          "R178I",
-          "Q185R",
-          "V190I",
-          "P197S",
-          "D199N",
-          "A201E",
-          "K205N",
-          "Q208K",
-          "E228K",
-          "P233S",
-          "K234Q",
-          "S239R",
-          "E243D",
-          "N252D",
-          "N256H",
-          "A279T",
-          "E284G",
-          "L285V",
-          "N289H",
-          "M298V",
-          "R326K",
-          "T336S",
-          "Q338L",
-          "K345X",
-          "Q429K",
-          "N492D",
-          "K499R",
-          "N515K",
-          "M527I",
-          "V539A",
-          "V549M"
-        ],
         "NA": [
           "K6R",
           "I10T",
@@ -355,22 +363,16 @@
         ]
       },
       "aa_sequences": {
-        "HA": "MENIVLLLAIISLVKSDQICIGYHANNSTEQVDTIMEKNVTVTHAQDILEKTHNGKLCDLNGVKPLILKDCSVAGWLLGNPMCDEFIRVPEWSYIVERANPANDLCYPGSLNDYEELKHLLSRINHFEKILIIPKSSWPNHETSLGVSAACPYQGAPSFFRNVVWLIKKNDAYPTIKISYNNTNREDLLILWGIHHSNNAEEQTNLYKNPTTYISVGTSTLNQRLVPKIATRSQVNGQRGRMDFFWTILKPDDAIHFESNGNFIAPEYAYKIVKKGDSTIMKSGVEYGHCNTKCQTPVGAINSSMPFHNIHPLTIGECPKYVKSNKLVLATGLRNSPLRERRRKXRGLFGAIAGFIEGGWQGMVDGWYGYHHSNEQGSGYAADKESTQKAIDGVTNKVNSIIDKMNTQFEAVGREFNNLERRIENLNKKMEDGFLDVWTYNAELLVLMENERTLDFHDSNVKNLYDKVRLQLRDNAKELGNGCFEFYHKCDDECMESVRNGTYDYPQYSEEARLKREEISGVKLESIGTYQILSIYSTAASSLALAIMMAGLSLWMCSNGSLQCRICI*",
         "NA": "MNPNQRIITTGSICMVIGIVSLMLQIGNIISIWVSHSIQTGNQYQPEPCNQSIIAYENNTWVNQTYVNINNTNFLAEQAVTSVTLAGNSSLCPISGWAIYSKDNGIRIGSKGDVFVIREPFISCSHLECRTFFLTQGALLNDKHSNGTVKDRSPYRTLMSCPVGEAPSPYNSRFESVAWSASACHDGISWLTIGISGPDNGAVAVLKYNGIITDTIKSWRNNILRTQESECACVNGSCFTVMTDGPSNGQASYKIFKIEKGKVVKSVELNAPNYHYEECSCYPDAGEIMCVCRDNWHGSNRPWVSFNQNLEYQIGYICSGVFGDNPRPNDGTGSCSPMSSNGAYGVKGFSFKYGNGVWIGRTKSTSSRSGFEMIWDPNGWTETDSSFSVKQDIVAITDLSGYSGTFVQHPELTGLDCMRPCFWVELIRGRPKENTIWTSGSSISFCGVNSDTVGWSWPDGAELPFTIDK*"
       }
     },
     "NODE_0000001": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "NODE_0000002": {
       "aa_muts": {
-        "HA": [
-          "V226I",
-          "E493D"
-        ],
         "NA": [
           "V16A",
           "V62I",
@@ -381,9 +383,6 @@
     },
     "NODE_0000003": {
       "aa_muts": {
-        "HA": [
-          "T52A"
-        ],
         "NA": [
           "R6K",
           "T10I",
@@ -405,6 +404,7 @@
           "V234I",
           "V241I",
           "K257R",
+          "P272S",
           "G286S",
           "I288V",
           "N329S",
@@ -417,59 +417,96 @@
     },
     "NODE_0000004": {
       "aa_muts": {
-        "HA": [],
-        "NA": [
-          "K432R"
-        ]
+        "NA": []
       }
     },
-    "NODE_0000006": {
+    "NODE_0000005": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "NODE_0000007": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "NODE_0000008": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
     "NODE_0000009": {
       "aa_muts": {
-        "HA": [],
-        "NA": []
-      }
-    },
-    "NODE_0000010": {
-      "aa_muts": {
-        "HA": [],
         "NA": [
-          "I8T"
+          "L85I"
         ]
-      }
-    },
-    "NODE_0000011": {
-      "aa_muts": {
-        "HA": [],
-        "NA": []
       }
     },
     "NODE_0000012": {
       "aa_muts": {
-        "HA": [],
+        "NA": [
+          "S272P"
+        ]
+      }
+    },
+    "NODE_0000014": {
+      "aa_muts": {
         "NA": []
       }
     },
-    "NODE_0000013": {
+    "NODE_0000015": {
       "aa_muts": {
-        "HA": [],
+        "NA": []
+      }
+    },
+    "NODE_0000016": {
+      "aa_muts": {
+        "NA": []
+      }
+    },
+    "NODE_0000017": {
+      "aa_muts": {
+        "NA": [
+          "N273D"
+        ]
+      }
+    },
+    "NODE_0000018": {
+      "aa_muts": {
+        "NA": []
+      }
+    },
+    "NODE_0000019": {
+      "aa_muts": {
+        "NA": []
+      }
+    },
+    "NODE_0000020": {
+      "aa_muts": {
+        "NA": []
+      }
+    },
+    "NODE_0000022": {
+      "aa_muts": {
+        "NA": []
+      }
+    },
+    "NODE_0000023": {
+      "aa_muts": {
+        "NA": [
+          "S286N"
+        ]
+      }
+    },
+    "NODE_0000024": {
+      "aa_muts": {
+        "NA": [
+          "I7M"
+        ]
+      }
+    },
+    "NODE_0000025": {
+      "aa_muts": {
         "NA": [
           "I8T",
           "I94T",
@@ -477,95 +514,96 @@
         ]
       }
     },
-    "NODE_0000014": {
+    "NODE_0000026": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
-    "NODE_0000015": {
+    "NODE_0000027": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
-    "NODE_0000016": {
+    "NODE_0000028": {
       "aa_muts": {
-        "HA": [],
         "NA": [
           "S221N"
         ]
       }
     },
-    "NODE_0000017": {
+    "NODE_0000029": {
       "aa_muts": {
-        "HA": [],
-        "NA": []
-      }
-    },
-    "NODE_0000018": {
-      "aa_muts": {
-        "HA": [],
         "NA": [
-          "S286N"
+          "K432R"
         ]
       }
     },
-    "NODE_0000019": {
+    "NODE_0000030": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
-    "NODE_0000020": {
+    "NODE_0000031": {
       "aa_muts": {
-        "HA": [
-          "T211N"
-        ],
         "NA": []
       }
     },
-    "NODE_0000022": {
+    "NODE_0000032": {
       "aa_muts": {
-        "HA": [],
         "NA": []
       }
     },
-    "NODE_0000023": {
+    "NODE_0000033": {
       "aa_muts": {
-        "HA": [
-          "K515R"
-        ],
         "NA": []
       }
     },
-    "NODE_0000024": {
+    "NODE_0000034": {
       "aa_muts": {
-        "HA": [],
+        "NA": []
+      }
+    },
+    "NODE_0000037": {
+      "aa_muts": {
+        "NA": []
+      }
+    },
+    "NODE_0000038": {
+      "aa_muts": {
         "NA": [
-          "P272S"
+          "I8T"
         ]
       }
     },
-    "NODE_0000027": {
+    "NODE_0000039": {
       "aa_muts": {
-        "HA": [],
-        "NA": [
-          "L85I"
-        ]
+        "NA": []
       }
     },
-    "NODE_0000028": {
+    "NODE_0000040": {
       "aa_muts": {
-        "HA": [
-          "A230V"
-        ],
         "NA": []
+      }
+    },
+    "NODE_0000041": {
+      "aa_muts": {
+        "NA": []
+      }
+    },
+    "NODE_0000042": {
+      "aa_muts": {
+        "NA": []
+      }
+    },
+    "NODE_0000046": {
+      "aa_muts": {
+        "NA": [
+          "T65I"
+        ]
       }
     }
   },
   "reference": {
-    "HA": "MEKIVLLLAIVSLVKSDQICIGYHANNSTEQVDTIMEKNVTVTHAQDILEKTHNGKLCDLNGVKPLILRDCSVAGWLLGNPMCDEFINVPEWSYIVEKASPANDLCYPGDFNDYEELKHLLSRTNHFEKIQIIPKSSWSNHDASSGVSSACPYHGRSSFFRNVVWLIKKNSAYPTIKRSYNNTNQEDLLVLWGIHHPNDAAEQTKLYQNPTTYISVGTSTLNQRLVPEIATRPKVNGQSGRMEFFWTILKPNDAINFESNGNFIAPEYAYKIVKKGDSAIMKSELEYGNCNTKCQTPMGAINSSMPFHNIHPLTIGECPKYVKSNRLVLATGLRNTPQRERRRKKRGLFGAIAGFIEGGWQGMVDGWYGYHHSNEQGSGYAADKESTQKAIDGVTNKVNSIIDKMNTQFEAVGREFNNLERRIENLNKQMEDGFLDVWTYNAELLVLMENERTLDFHDSNVKNLYDKVRLQLRDNAKELGNGCFEFYHKCDNECMESVKNGTYDYPQYSEEARLNREEISGVKLESMGTYQILSIYSTVASSLALAIMVAGLSLWMCSNGSLQCRICI*",
     "NA": "MNPNQKIITIGSICMVVGIISLMLQIGNIISIWVSHSIQTGNQHQAEPCNQSIITYENNTWVNQTYVNISNTNFLTEKAVASVTLAGNSSLCPISGWAVHSKDNGIRIGSKGDVFVIREPFISCSHLECRTFFLTQGALLNDKHSNGTVKDRSPHRTLMSCPVGEAPSPYNSRFESVAWSASACHDGTSWLTIGISGPDNGAVAVLKYNGIITDTIKSWRNNILRTQESECACVNGSCFTVMTDGPSNGQASYKIFKMEKGKVVKSVELNAPNYHYEECSCYPDAGEITCVCRDNWHGSNRPWVSFNQNLEYQIGYICSGVFGDNPRPNDGTGSCGPVSPNGAYGVKGFSFKYGNGVWIGRTKSTNSRSGFEMIWDPNGWTGTDSSFSVKQDIVAITDWSGYSGSFVQHPELTGLDCIRPCFWVELIRGRPKESTIWTSGSSISFCGVNSDTVGWSWPDDAELPFTIDK*"
   }
 }
